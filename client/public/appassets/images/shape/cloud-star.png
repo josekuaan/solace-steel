@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="zxx">
+<!--<![endif]-->
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!--<title>E-Capital Option - Home</title> -->
+	<title>E-Capital Option | Trade stocks, Forex, Options & Crypto | Home</title>
+	
+	
+	<!--Favicon-->
+	<!--<link rel="shortcut icon" type="image/png" href="https://e-capitaloption.com/appassets/images/favicon.png" /> -->
+	
+	<link rel="shortcut icon" type="image/png" href="https://e-capitaloption.com/appassets/newimages/favicon1.png" />
+	
+	
+	
+	<!--Bootstrap Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/bootstrap2.css">
+	<!--Slick Slider-->
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/slick.css">
+	<!--Font Awesome Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/all.min.css">
+	<!--Animate Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/animate.css">
+	<!--Venobox Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/venobox.css">
+	<!--Main Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/style.css">
+	<!--Responsive Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/responsive.css">
+	
+	<link rel="stylesheet" type="text/css" href="https://e-capitaloption.com/appassets/css/style2.css">
+	
+	<link href="https://e-capitaloption.com/appassets/plugins/notify/css/jquery.growl.css" rel="stylesheet" />
+	
+    <script src="https://e-capitaloption.com/process/countries.js"></script>
+</head>
+
+<body class="body-class index_1 home1">
+	
+	<div class="site-preloader">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</div>
+	<!--End Preloader-->
+	<!-- Main Menu Area Start -->
+	<header id="mainHeader" class="header">
+		<!-- Start Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light p-0">
+			<div class="container">
+				<!--<a class="navbar-brand" href="#welcomeArea">
+					E-Capital Option
+				</a> -->
+				
+				<a href="http://e-capitaloption.com"><img src="https://e-capitaloption.com/appassets/newimages/logo1.png" alt="Logo" class="navbar-brand" style="width:250px; height: 50px;"></a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<!--<li class="nav-item">
+							<a class="nav-link" href="http://e-capitaloption.com">Home</a>
+						</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="https://e-capitaloption.com/about-us">About Us</a>
+						</li>
+					<!--	<li class="nav-item">
+							<a class="nav-link" href="#transaction">Transaction</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="#faq">FAQ</a>
+						</li>
+						
+						
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonial">Testimonial</a>
+						</li> -->
+						
+						<li class="nav-item">
+							<a class="nav-link" href="https://e-capitaloption.com/contact-us">Contact</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="https://e-capitaloption.com/login">Login</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://e-capitaloption.com/register">Register</a>
+						</li>
+											</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- End Navigation -->
+		<div class="clearfix"></div>
+	</header>
+	<!-- Main Menu Area End -->
+
+
+
+
+
+  
+
+	<!-- Welcome Area Start -->
+	<section id="welcomeArea">
+		<div class="container">
+			<div class="row welcomaareaRow">
+				<div class="col-md-6 d-flex align-self-center">
+					<div class="left">
+						<h1 class="info">E-Capital Option</h1>
+						<p style="text-align: justify;"><font color="white">We are E-capital Option, consistently rated the best and the most secure cryptocurrency platform.
+						We put power in your hand to buy, sell, and trade digital currency.</font></p>
+
+						<!--    <div class="searcAddress">
+							<form action="#">
+								<input type="text" placeholder="Your Dogicoin Address...">
+								<button type="submit">Enter</button> 
+							</form>
+						</div>      -->
+						
+						<br>
+						
+						<!--<h4 class="mt-0 header-title text-white mb-3">Quick Bitcoin Converter</h4>
+						<div class="calculator-block"><div class="calculator-body">
+						<script src="https://www.cryptonator.com/ui/js/widget/calc_widget.js"></script>
+						</div></div> -->
+						
+						
+						
+						
+						
+						
+						
+					   <!--	<div class="info">
+							<h3>
+								0 : 01 : 53 : 36 : 81 DOGE
+							</h3>
+							<p>
+								MINER SPEED: 5 DH/S | DAILY PROFIT 1 DOGE
+							</p>
+						</div> -->
+					</div>
+				</div>
+				<!--<div class="col-md-6 d-flex dSmNone align-self-center">
+					<div class="right">
+						<div class="background">
+							<img class="img-fluid" src="https://e-capitaloption.com/appassets/newimages/ppp1.jpg" alt="">
+						</div>
+					</div>
+				</div> -->
+			</div>
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+			<div style="height:62px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #000000;padding:1px;padding: 0px; margin: 0px; width: 100%;"><div style="height:40px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=" width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div>
+		
+		
+	</section>
+	<!-- Welcome Area End -->
+
+	
+
+	<!-- video Area Start -->
+	<section id="video">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 d-flex align-self-center">
+					<div class="left">
+						<div class="heading-title">
+							
+							    <h2 style="text-align: justify;"><span style="color:#fe851b;"><span style=""><span style="font-family:times new roman,times,serif;">
+							        Who We Are?</span></span></span></h2>
+								
+							
+							<!--<h2>
+								We've Built
+								E-Capital Option Platform
+							</h2>-->
+						</div>
+						<div class="content">
+							<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:times new roman,times,serif;">As one of the leading Bitcoin trading company in the world,
+							E-capital Option&nbsp; is consistently named one of the best places to mine, buy and sell crypto online, thanks to our excellent service, low fees, versatile
+							funding options and rigorous security standards.</span></span></p>
+
+                                <p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:times new roman,times,serif;">Recognizing the importance of Bitcoin from the onset, and understanding that the exchange
+                                is the most critical part of the cryptocurrency ecosystem, Mikhail Fridman founded E-capital Option to give people the means to quickly and securely invest in the space. Since 
+                                then, the company has grown by leaps and bounds with hundreds of employees spanning the globe.</span></span></p>
+
+						    <!--	<div class="videoBox">
+								<a class="venobox" data-vbtype="video" data-autoplay="true" href="http://vimeo.com/75976293">
+									<i class="fas fa-play"></i>
+								</a>
+								<span>
+									Watch 2:45 min movie
+								</span>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					
+					
+				<!--	<div class="right">
+						<div class="parallax1">
+							<img class="img-fluid" src="https://e-capitaloption.com/appassets/images/about.png" alt="">
+						</div>
+					</div>      -->
+					
+					
+					
+					
+					<style>
+                        .containerCEO {
+                          position: relative;
+                          font-family: Arial;
+                        
+                          
+                        }
+                        
+                        .text-block {
+                          position: absolute;
+                          width:95%;
+                          bottom: 10px;
+                          right: 0px;
+                          background-color: #fbae1c;
+                          color: white;
+                          padding-left: 15px;
+                          padding-right: 15px;
+                          padding-top: 5px;
+                          padding-bottom: 5px;
+                          border-radius: 15px;
+                        }
+                    </style>
+					
+					<div class="right">
+						<div class="parallax1">
+						<div class="containerCEO">
+                                
+                                  <img class="img-fluid" alt="CEO" style="width:100%;" src="https://e-capitaloption.com/appassets/newimages/CEO.png">
+                                  <div class="text-block">
+                                    <h4><font color="white">MIKHAIL FRIDMAN - CEO</font></h4>
+                                    <p><font color="white">We share the passion to code, create, and connect people to the future of finance.</font></p>
+                                  </div>
+                                </div>
+						</div>
+					</div>
+					
+				
+				
+				
+				
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- video Area End  -->
+	
+	
+	
+	
+	
+	
+	<!-- How it Works Area Start -->
+	<section id="hiw">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<div class="heading-title">
+						<p>
+							Join the world’s most popular Trading Platform
+						</p>
+						<h2>
+							READY FOR TRADE WITH ULTIMATE PLATFORM AND UNIQUE SERVICE?
+						</h2>
+					</div>
+				</div>
+			</div>
+		<!--	<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<div class="box box1">
+						<i class="fas fa-search"></i>
+						<p>
+							Phurchase Cloud <br>
+							Base GHS
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="box box2">
+						<i class="fas fa-pencil-alt"></i>
+						<p>
+							GHS Starts Mining Coins
+							Right After Purchase
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="box box3">
+						<i class="far fa-hand-point-up"></i>
+						<p>
+							The More GHS The More
+							Bitcoins They Generate
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="box box4">
+						<i class="fas fa-check"></i>
+						<p>
+							Withdraw Your Generated
+							From Account
+						</p>
+					</div>
+				</div>
+			</div> -->
+			<p style="text-align: justify; padding-bottom:5px;">Our platform is designed and architected for all experience level of traders and arranged Intuitive, Comfortable, and Super User-friendly.
+			Enjoy All Asset Class in one platform, Ultra-low Latency & Fair Execution you've never met before!</p>
+			
+			
+			<center>
+        <img id="dog" src="https://e-capitaloption.com/appassets/newimages/banner1.png" alt="banner" align="middle"  style="width:80%;  height:auto;"></center>
+			
+		</div>
+	</section>
+	<!-- How it Works Area End -->
+	
+	
+	
+	
+	
+	
+
+	<!-- Transaction Area Start -->
+	<section id="transaction">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<div class="heading-title2">
+						
+						<h2>
+							<!--E-Capital Option Transaction--> How to Get Started
+						</h2>
+						
+						<h4><font style="color:white;">
+							Using Bitcoin to transact is easy and accessible to everyone
+							</font>
+						</h4>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<style>
+
+
+.column {
+  float: left;
+  width: 300px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  white-space: normal;
+ } 
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+
+<div class="row">
+  
+  <div class="column">
+    <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+        <img id="dog" src="https://e-capitaloption.com/appassets/newimages/s1.png" alt="Snow" align="middle"  style="width:50%;  height:150px;"></center>
+    </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h3 style="padding-top: 5px;"><font color="white">Choose your Wallet</font></h3></center>
+    <p style="text-align: justify;"><font color="white">Free Bitcoin wallets are available for all major operating system and devices to serve a variety
+    of your needs. Choosing a wallet is easy and can be done within a minute.</font></p>
+    </div>
+  </div>
+  
+  <div class="column" >
+      
+      <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+    <center><img id="dog" src="https://e-capitaloption.com/appassets/newimages/s2.png" alt="Snow" style="width:50%;  height:150px;"></center>
+        </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px;; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h3 style="padding-top: 5px;"><font color="white">Make Payment</font></h3></center>
+    <p style="text-align: justify;"><font color="white">Now that you have a wallet, you have to add some Bitcoin to your balance. 
+    And have your Bitcoin cash wallet address ready for use.</font></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+    <center><img id="dog" src="https://e-capitaloption.com/appassets/newimages/s3.png" alt="Snow" style="width:50%;  height:150px;"></center>
+    </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h3 style="padding-top: 5px;"><font color="white">Trade, Buy and Sell Orders</font></h3></center>
+    <p style="text-align: justify;"><font color="white">Receiving Bitcoin is as easy as giving the sender your public address. Sending Bitcoin requires a few more steps.
+    It is important to pay attention when sending. Overall, the process for sending Bitcoin is actually quite easy</font></p>
+    </div>
+  </div>
+  
+  
+  
+</div>
+			
+			
+			
+			
+			
+			
+			
+			<style>
+.buttonGet {
+  background-color: #fff;
+  border: none;
+  color: #fbae1c;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius:20px;
+}
+
+.buttonGet:hover {
+  background-color: #fff;
+  border-radius:10px;
+}
+</style>
+
+<center><a class="nav-link" href="https://e-capitaloption.com/register"><button class="buttonGet">Register Now</button></a></center>
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div class="row justify-content-center">
+				<div class="col-md-10 col-lg-8 ">
+					<div class="tab1">
+						<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+							<!--<li class="nav-item">
+								<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+								 aria-selected="true">
+									<p style="width:100%;">
+										Register&nbsp;now
+									</p>
+								</a>
+							</li>
+							<li class="nav-item" style="width:100%;">
+								<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+								 aria-selected="false">
+									<p>
+										Payouts xjksdkjsajkd
+									</p>
+								</a>
+							</li> -->
+						</ul>
+						<div class="tab-content" id="pills-tabContent">
+							<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+								<div class="table-responsive">
+								 <!--	<table class="table table-bordered">
+										<thead>
+											<tr>
+												<th>AMOUNT</th>
+												<th>PLAN</th>
+												<th>TRX ID</th>
+												<th>TRX TIME</th>
+											</tr>
+										</thead>
+										<tbody>
+										                                        											
+											<tr>
+												<td>$  100.00</td>
+												<td>Starter</td>
+												<td>idsS5...</td>
+												<td>3 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  100.00</td>
+												<td>Starter</td>
+												<td>kByV7...</td>
+												<td>3 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  100.00</td>
+												<td>Starter</td>
+												<td>zHMaf...</td>
+												<td>4 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  100.00</td>
+												<td>Starter</td>
+												<td>ObRNz...</td>
+												<td>4 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  300.00</td>
+												<td>Starter</td>
+												<td>BvQU0...</td>
+												<td>4 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  108.00</td>
+												<td>Starter</td>
+												<td>gQ9FB...</td>
+												<td>4 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  195.00</td>
+												<td>Starter</td>
+												<td>ubjuG...</td>
+												<td>4 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  1500.00</td>
+												<td>Gold</td>
+												<td>YK4i8...</td>
+												<td>4 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  120.00</td>
+												<td>Starter</td>
+												<td>3puK0...</td>
+												<td>4 months ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$  100.00</td>
+												<td>Starter</td>
+												<td>zuWnd...</td>
+												<td>4 months ago</td>
+											</tr>
+																															
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+								<div class="table-responsive">
+									<table class="table table-bordered">
+										<thead>
+											<tr>
+												<th>AMOUNT</th>
+												<th>GATEWAY</th>
+												<th>TRX ID</th>
+												<th>TRX TIME</th>
+											</tr>
+										</thead>
+										<tbody>
+										                                        											
+											<tr>
+												<td>$ 2000.00</td>
+												<td>Bank Transfer</td>
+												<td>eXTuM...</td>
+												<td>5 hours ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 1000.00</td>
+												<td>Bank Transfer</td>
+												<td>q1qIb...</td>
+												<td>3 days ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 138000.00</td>
+												<td>Bitcoin</td>
+												<td>WoHcA...</td>
+												<td>4 days ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 50034.00</td>
+												<td>Bitcoin</td>
+												<td>396Nk...</td>
+												<td>5 days ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 3000.00</td>
+												<td>Bitcoin</td>
+												<td>Kn1Wt...</td>
+												<td>6 days ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 10134.00</td>
+												<td>Bank Transfer</td>
+												<td>EtbZp...</td>
+												<td>1 week ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 4784.00</td>
+												<td>Bank Transfer</td>
+												<td>tIR86...</td>
+												<td>1 week ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 1000.00</td>
+												<td>PayPal</td>
+												<td>WLoCj...</td>
+												<td>1 week ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 1000.00</td>
+												<td>Bank Transfer</td>
+												<td>rvffB...</td>
+												<td>2 weeks ago</td>
+											</tr>
+																					
+											<tr>
+												<td>$ 4574.00</td>
+												<td>Bank Transfer</td>
+												<td>tGzrr...</td>
+												<td>2 weeks ago</td>
+											</tr>
+																														</tbody>
+									</table> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Transaction Area End -->
+
+	<!-- Investor Area Start -->
+	<section id="investorArea">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 d-flex align-self-center">
+					<div class="left">
+						<div class="heading-title">
+							<p>
+								Backed by the Best
+							</p>
+							<h2>
+								Our Top Investors
+							</h2>
+						</div>
+						<div class="content">
+							<p>
+								We’ve raised $70M from the leading investors in Silicon Valley, Wall Street, and London.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="right">
+						<div class="parallax2">
+							<img class="img-fluid" src="https://e-capitaloption.com/appassets/newimages/sponsors1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Investor Area End -->
+
+	<!-- Feature Area Start -->
+	<section id="feature">
+		<div class="container" >
+		    
+		    
+		    <div class="heading-title2" style="padding-bottom:30px;"> <center>
+		         <h2><font style="color:white;">Service we Provide</font></h2>
+
+                    <h5><font style="color:white;">E-capital Option is more than just a Bitcoin trading platform. We provide a wide range of Blockchain
+                    focused Marketing, easy way to buy, send, store, mine and learn about cryptocurrency.</font>
+                    </h5>
+                    </font>
+            </center>
+            </div>
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    <div class="row">
+  
+  <div class="column">
+    <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+        <img id="dog" src="https://e-capitaloption.com/appassets/newimages/a6.png" alt="Snow" align="middle"  style="width:30%;  height:80px;"></center>
+    </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h4 style="padding-top: 5px;"><font color="white">Payment Methods</font></h4></center>
+    <p style="text-align: justify;"><font color="white">There are several ways to buy, sell, and trade bitcoins on E-capital Option. Each way you can buy bitcoin is called a "payment method".</font></p>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+        <img id="dog" src="https://e-capitaloption.com/appassets/newimages/a2.png" alt="Snow" align="middle"  style="width:30%;  height:80px;"></center>
+    </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h4 style="padding-top: 5px;"><font color="white">Support 24/7</font></h4></center>
+    <p style="text-align: justify;"><font color="white">
+								Our support service is 24/7 available for you. If you have any query, kindly contact us. We are happy to help you.</font></p>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+        <img id="dog" src="https://e-capitaloption.com/appassets/newimages/a3.png" alt="Snow" align="middle"  style="width:30%;  height:80px;"></center>
+    </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h4 style="padding-top: 5px;"><font color="white">Live Exchange Rates</font></h4></center>
+    <p style="text-align: justify;"><font color="white">Get the latest Bitcoin price with our real-time price charts including buy and sell volumes.</font></p>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+        <img id="dog" src="https://e-capitaloption.com/appassets/newimages/a4.png" alt="Snow" align="middle"  style="width:30%;  height:80px;"></center>
+    </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h4 style="padding-top: 5px;"><font color="white">Registered Company</font></h4></center>
+    <p style="text-align: justify;"><font color="white">TE-capital Option is licensed and regulated by the New York Financial Services
+								Commission under the Financial Services (Electronic Money) Regulations 2011 as
+								an "Electronic Money Institution" with license No. FSC0063BNK.</font></p>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+        <img id="dog" src="https://e-capitaloption.com/appassets/newimages/a1.png" alt="Snow" align="middle"  style="width:30%;  height:80px;"></center>
+    </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h4 style="padding-top: 5px;"><font color="white">Cryptocurrency Investments</font></h4></center>
+    <p style="text-align: justify;"><font color="white">Voted as the Most Trusted Bitcoin Investment site, E-capital Option is by far the most popular because you can invest in bitcoin directly with USD and get paid within 24 hours.</font></p>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div style="background:white; padding:20px 0px; border-radius:10px 10px 0px 0px;"><center>
+        <img id="dog" src="https://e-capitaloption.com/appassets/newimages/a5.png" alt="Snow" align="middle"  style="width:30%;  height:80px;"></center>
+    </div>
+    <div style = "background-color:rgba(255, 255, 255, 0.10); border-radius:0px 0px 10px 10px; margin-top:0px; padding-top:5px; padding-right:30px; padding-left:30px; padding-bottom:20px;">
+    <center><h4 style="padding-top: 5px;"><font color="white">Security Protected</font></h4></center>
+    <p style="text-align: justify;"><font color="white">Security of user information and funds is our first priority. Our security team is continually improving our end-to-end security measures, improving auditing processes, and reducing the 'attack surface' of our infrastructure.</font></p>
+    </div>
+  </div>
+  
+  
+  
+</div>
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		<!--	<div class="row">
+				
+				
+				
+				
+				<div class="col-lg-4">
+					<div class="box d-flex">
+						<div class="left d-flex">
+							<p class="d-flex align-self-center">
+							        <!--<i class="fas fa-search"></i> -->
+							<!--	<img class="img-fluid" src="https://e-capitaloption.com/appassets/newimages/a6.png" alt="">
+							</p>
+						</div>
+						<div class="right">
+							<h4>
+								Payment Methods
+							</h4>
+							<p style="text-align: justify;">
+								There are several ways to buy, sell, and trade bitcoins on E-capital Option. Each way you can buy bitcoin is called a "payment method".
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				<div class="col-lg-4">
+					<div class="box d-flex">
+						<div class="left d-flex">
+							<p class="d-flex align-self-center">
+								<!--<i class="fas fa-key"></i>-->
+								
+							<!--	<img class="img-fluid" src="https://e-capitaloption.com/appassets/newimages/a2.png" alt="">
+							</p>
+						</div>
+						<div class="right">
+							<h4>
+								Support 24/7
+							</h4>
+							<p style="text-align: justify;">
+								Our support service is 24/7 available for you. If you have any query, kindly contact us. We are happy to help you
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="col-lg-4">
+					<div class="box d-flex">
+						<div class="left d-flex">
+							<p class="d-flex align-self-center">
+								<!--<i class="fas fa-key"></i>-->
+								
+							<!--	<img class="img-fluid" src="https://e-capitaloption.com/appassets/newimages/a3.png" alt="">
+							</p>
+						</div>
+						<div class="right">
+							<h4>
+								Live Exchange Rates
+							</h4>
+							<p style="text-align: justify;">
+								Get the latest Bitcoin price with our real-time price charts including buy and sell volumes
+						</div>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		
+		<div style="padding-bottom:25px;"></div>
+		
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="box d-flex">
+						<div class="left d-flex">
+							<p class="d-flex align-self-center">
+							    <!--	<i class="fas fa-star-half-alt"></i>-->
+							<!--	<img class="img-fluid" src="https://e-capitaloption.com/appassets/newimages/a4.png" alt="">
+								
+							</p>
+						</div>
+						<div class="right">
+							<h4>
+								Registered Company
+							</h4>
+							<p style="text-align: justify;">
+								E-capital Option is licensed and regulated by the New York Financial Services
+								Commission under the Financial Services (Electronic Money) Regulations 2011 as
+								an "Electronic Money Institution" with license No. FSC0063BNK
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				<div class="col-lg-4">
+					<div class="box d-flex">
+						<div class="left d-flex">
+							<p class="d-flex align-self-center">
+							        <!--<i class="fas fa-search"></i> -->
+							<!--	<img class="img-fluid" src="https://e-capitaloption.com/appassets/newimages/a1.png" alt="">
+							</p>
+						</div>
+						<div class="right">
+							<h4>
+								Cryptocurrency Investments
+							</h4>
+							<p style="text-align: justify;">
+								Voted as the Most Trusted Bitcoin Investment site, 
+								E-capital Option is by far the most popular because you can invest
+								in bitcoin directly with USD and get paid within 24 hours.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				<div class="col-lg-4">
+					<div class="box d-flex">
+						<div class="left d-flex">
+							<p class="d-flex align-self-center">
+							    <!--	<i class="fas fa-star-half-alt"></i>-->
+							<!--	<img class="img-fluid" src="https://e-capitaloption.com/appassets/newimages/a5.png" alt="">
+								
+							</p>
+						</div>
+						<div class="right">
+							<h4>
+								Security Protected
+							</h4>
+							<p style="text-align: justify;">
+								Security of user information and funds is our first priority.
+								Our security team is continually improving our end-to-end security measures, 
+								improving auditing processes, and reducing the 'attack surface' of our infrastructure.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+			
+			</div>
+		</div> -->
+	</section>
+	<!-- Feature Area End -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	<!-- Counter Area Start -->
+	<section id="counter">
+                        	<!--	<div class="container">
+                        			<div class="row">
+                        				<div class="col-md-6 col-lg-3">
+                        					<div class="cWrapper">
+                        						<div class="box box1 d-flex">
+                        							<div class="left d-flex align-self-center">
+                        								<p>
+                        									<i class="fas fa-check"></i>
+                        								</p>
+                        							</div>
+                        							<div class="right">
+                        								<div class="content">
+                        									<span class="count">2540</span>
+                        									<p>
+                        										Projects Completed
+                        									</p>
+                        								</div>
+                        							</div>
+                        						</div>
+                        					</div>
+                        				</div>
+                        				<div class="col-md-6 col-lg-3">
+                        					<div class="cWrapper">
+                        						<div class="box box2 d-flex">
+                        							<div class="left d-flex align-self-center">
+                        								<p>
+                        									<i class="fas fa-coffee"></i>
+                        								</p>
+                        							</div>
+                        							<div class="right">
+                        								<span class="count">7325</span>
+                        								<p>
+                        									Coffee Consumed
+                        								</p>
+                        							</div>
+                        						</div>
+                        					</div>
+                        				</div>
+                        				<div class="col-md-6 col-lg-3">
+                        					<div class="cWrapper">
+                        						<div class="box box3 d-flex">
+                        							<div class="left d-flex align-self-center">
+                        								<p>
+                        									<i class="fas fa-heart"></i>
+                        								</p>
+                        							</div>
+                        							<div class="right">
+                        								<span class="count">7325</span>
+                        								<p>
+                        									Happy Customers
+                        								</p>
+                        							</div>
+                        						</div>
+                        					</div>
+                        				</div>
+                        				<div class="col-md-6 col-lg-3">
+                        					<div class="cWrapper">
+                        						<div class="box box4 d-flex">
+                        							<div class="left d-flex align-self-center">
+                        								<p>
+                        									<i class="fas fa-cog"></i>
+                        								</p>
+                        							</div>
+                        							<div class="right">
+                        								<span class="count">2754</span>
+                        								<p>
+                        									Lines of Code
+                        								</p>
+                        							</div>
+                        						</div>
+                        					</div>
+                        				</div>
+                        			</div>
+                        		</div>   -->
+                        		
+                       
+                      <!--<div style=""> 	<center>	
+                        		
+                                <div style="height:560px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right;
+                                line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;padding:1px;padding: 0px;
+                                margin: 0px; width: 80%;"><div style="height:540px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=chart&theme=light&coin_id=859&pref_coin_id=1505" 
+                                width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div><div style="color: #FFFFFF; 
+                                line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="http://e-capitaloption.com" target="_blank" 
+                                style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by E-Capital Option</div></div>
+                        
+                        </center>		
+                         </div>	-->
+                         
+                         
+                         <div class="heading-title2" style="padding-bottom:30px;"> <center>
+		         <h2><font style="color:black;">Online Trading Platform</font></h2>
+
+                    <h5><font style="color:black;">FDs on Stocks, ETFs, Commodities, Indices, Cryptocurrencies, Forex and Options</font>
+                    </h5>
+                    </font>
+            </center>
+            </div>
+                         
+                         
+                         
+                         <img src="https://e-capitaloption.com/appassets/newimages/video2.webp" alt="" style="width:100%; ">
+                         
+                         
+                         <!--<video autoplay muted loop id="myVideo" tyle="width:100%; ">
+  <source src="https://e-capitaloption.com/appassets/newimages/video1.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video> -->
+                         
+                         
+                
+                        		
+                        		
+                        		
+	</section>
+	<!-- Counter Area End -->
+
+	<!-- FAQ Area Start -->
+	<section id="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<div class="heading-title2">
+						
+						<h2>
+							Frequently Asked Question’s
+						</h2>
+						<h5> <font color="white">
+						We answer some of your Frequently Asked Questions regarding bitcoin and bitcoin cloud mining via email and contact us page.
+						If you have a query regarding bitcoin mining do not hesitate to kindly contact us.</font>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="faq-accordian">
+						<div class="panel-group accordion" id="accordionId">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="panel panel-default">
+									    
+									    
+									    
+									    
+									    	<div class="panel panel-default">
+										<div class="panel-heading" id="headingTwo">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+													Why is Bitcoin Trusted?</a>
+											</h4>
+										</div>
+										<div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionId">
+											<div class="panel-body">
+												Bitcoin is trusted widely because it’s open-source and decentralized. This means that the global public has access to the entire Bitcoin source code at any time. All payments
+												can be made without reliance on a third-party and the whole system is protected by heavily peer-reviewed cryptographic algorithms and most important thing is no institution 
+												or organization can control Bitcoin.
+											</div>
+										</div>
+									</div>
+									    
+									    
+									    
+									    
+										<div class="panel-heading" id="headingOne">
+											<h4 class="panel-title">
+												<a class="" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+													What is the minimum amount for withdrawal?</a>
+											</h4>
+										</div>
+										<div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionId">
+											<div class="panel-body">
+												The minimum amount for withdrawal is 0.0001 BTC
+											</div>
+										</div>
+									</div>
+									
+									
+									
+									
+									
+									
+									
+								
+									
+									
+									
+									
+									
+									<div class="panel panel-default">
+										<div class="panel-heading" id="headingThree">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+													I haven't found an answer to my question. How can I get in touch with you?</a>
+											</h4>
+										</div>
+										<div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordionId">
+											<div class="panel-body">
+												Customer service is our highest priority. Therefore you can get in touch with us via our contact page.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" id="headingFour">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+												How can I make an investment?</a>
+											</h4>
+										</div>
+										<div id="collapse4" class="collapse" aria-labelledby="headingFour" data-parent="#accordionId">
+											<div class="panel-body">
+												To make an investment with us simply choose the investment plan or click on register and you will be redirected to the registration page. After you have completed registration, navigate to account funding section to deposit money into your account. After you have successfully funded your account, purchase any of our investment plans and wait for your daily or hourly profits.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="panel panel-default">
+										<div class="panel-heading" id="headingFive">
+											<h4 class="panel-title">
+												<a class="" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+													What’s the minimum amount I can invest?</a>
+											</h4>
+										</div>
+										<div id="collapse5" class="collapse" aria-labelledby="headingFive" data-parent="#accordionId">
+											<div class="panel-body">
+												For the Basic plan the minimum amount is 100 USD, for the Premium plan it’s 1000 USD and for the Ultimate plan it’s 10,000 USD.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" id="headingSix">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+													 Do you have a referral program?</a>
+											</h4>
+										</div>
+										<div id="collapse6" class="collapse" aria-labelledby="headingSix" data-parent="#accordionId">
+											<div class="panel-body">
+												Free Money? Sure, why not! If you’re bringing in friends/family you can get up to 10% more to your return per each plan your referral invest. The payment is made instantly to your account balance after the investment cycle has been completed. For more information, please visit our Referrals Section.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" id="headingSeven">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+													What is BItcoin mining?</a>
+											</h4>
+										</div>
+										<div id="collapse7" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionId">
+											<div class="panel-body">
+												Bitcoin mining is analogous to the mining of gold, but its digital form. The process involves specialized computers solving algorithmic equations or hash functions. These problems help miners to confirm blocks of transactions held within the network. Bitcoin mining provides a reward for miners by paying out in Bitcoin in turn the miners confirm transactions on the blockchain. Miners introduce new Bitcoin into the network and also secure the system with transaction confirmation. They are also rewarded network fees for when they harvest new coin and a time when the last bitcoin is found mining will continue.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" id="headingEight">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+													How does mining help secure Bitcoin?
+</a>
+											</h4>
+										</div>
+										<div id="collapse8" class="collapse" aria-labelledby="headingEight" data-parent="#accordionId">
+											<div class="panel-body">
+												Mining creates the equivalent of a competitive lottery that makes it very difficult for anyone to consecutively add new blocks of transactions into the block chain. This protects the neutrality of the network by preventing any individual from gaining the power to block certain transactions. This also prevents any individual from replacing parts of the block chain to roll back their own spends, which could be used to defraud other users. Mining makes it exponentially more difficult to reverse a past transaction by requiring the rewriting of all blocks following this transaction.
+											</div>
+										</div>
+									</div>
+            								<!--	<div class="panel panel-default">
+            										<div class="panel-heading" id="headingNine">
+            											<h4 class="panel-title">
+            												<a class="collapsed" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            													Are you plan to open a brance on Dhaka?</a>
+            											</h4>
+            										</div>
+            										<div id="collapse9" class="collapse" aria-labelledby="headingNine" data-parent="#accordionId">
+            											<div class="panel-body">
+            												We are full service Digital Marketing Agency all the tools you
+            												need for inbound success. With this module theres no need to
+            												go another day.
+            											</div>
+            										</div>
+            									</div>  -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FAQ Area End -->
+
+	<!-- Testimonial Area Start -->
+	<section id="testimonial">
+		<div class="container">
+		    <div><center><h1>What Our Client's Are Saying</h1></center></div>
+			<div class="row justify-content-center">
+			 
+				<div class="col-12 col-md-6 col-lg-5 text-center">
+					<div class="slider slider-nav">
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user1.jpeg" alt="">
+						</div>
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user2.jpeg" alt="">
+						</div>
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user3.jpeg" alt="">
+						</div>
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user4.jpeg" alt="">
+						</div>
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user5.jpeg" alt="">
+						</div>
+						
+						
+						
+						
+						
+						
+						
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user1.jpeg" alt="">
+						</div>
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user2.jpeg" alt="">
+						</div>
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user3.jpeg" alt="">
+						</div>
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user4.jpeg" alt="">
+						</div>
+						<div class="client-thumbnail">
+							<img src="https://e-capitaloption.com/appassets/newimages/user5.jpeg" alt="">
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-10 col-lg-9">
+					<div class="slider slider-for">
+						<!-- Client Feedback Text 1 -->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“I have been trading with E-capital Option for some years now, Their customer service is very good.
+									They always help me if I have a problem, most times they can handle it through the phone. 
+									I have been very happy with E-capital Option.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>CHARLIE ETHAN -</h5>
+								<p>Accountant</p>
+							</div>
+						</div>
+						<!-- Client Feedback Text 2 -->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“I selected E-capital Option  for my trading  as I have a long 
+									standing relationship, several open business and the Services and Customer Service was always outstanding.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>ELEANOR SARAH -</h5>
+								<p>Marketing Analyst</p>
+							</div>
+						</div>
+						<!-- Client Feedback Text 3 -->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“It is the most reliable and trusted platform to trade cryptocurrency, you will get the exciting offers every time you trade.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>LEO GEORGE -</h5>
+								<p>Business man</p>
+							</div>
+						</div>
+						<!-- Client Feedback Text  4-->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“E-capital Option is ideal for both small and big traders. They provide exciting deals and offers for the traders.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>JONATHAN MORALES -</h5>
+								<p>Web Developer</p>
+							</div>
+						</div>
+						<!-- Client Feedback Text  5-->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“Every time I contact E-capital Option I always feel confident and all my issues are handled by people who 
+									are there to assist and accommodate their customers. Never was I left unsatisfied with their professional personnel! Keep up the good work E-Capital Option.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>ABIGAIL EMILY -</h5>
+								<p>Banker</p>
+							</div>
+						</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<!-- Client Feedback Text 1 -->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“I have been trading with E-capital Option for some years now, Their customer service is very good.
+									They always help me if I have a problem, most times they can handle it through the phone. 
+									I have been very happy with E-capital Option.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>CHARLIE ETHAN -</h5>
+								<p>Accountant</p>
+							</div>
+						</div>
+						<!-- Client Feedback Text 2 -->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“I selected E-capital Option  for my trading  as I have a long 
+									standing relationship, several open business and the Services and Customer Service was always outstanding.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>ELEANOR SARAH -</h5>
+								<p>Marketing Analyst</p>
+							</div>
+						</div>
+						<!-- Client Feedback Text 3 -->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“It is the most reliable and trusted platform to trade cryptocurrency, you will get the exciting offers every time you trade.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>LEO GEORGE -</h5>
+								<p>Business man</p>
+							</div>
+						</div>
+						<!-- Client Feedback Text  4-->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“E-capital Option is ideal for both small and big traders. They provide exciting deals and offers for the traders.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>JONATHAN MORALES -</h5>
+								<p>Web Developer</p>
+							</div>
+						</div>
+						<!-- Client Feedback Text  5-->
+						<div class="client-feedback-text text-center">
+							<div class="client-description text-center">
+								<p>
+									“Every time I contact E-capital Option I always feel confident and all my issues are handled by people who 
+									are there to assist and accommodate their customers. Never was I left unsatisfied with their professional personnel! Keep up the good work E-Capital Option.”
+								</p>
+							</div>
+							<div class="client-name text-center">
+								<h5>ABIGAIL EMILY -</h5>
+								<p>Banker</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Testimonial Area End -->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Site Footer
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <footer class="site-footer bg-primary pd-t-120" style="background-image: url('https://e-capitaloption.com/appassets/images/shape/cloud-star.png')">
+            
+            <!--
+            <div class="footer-cloud-bg" style="background-image: url('https://e-capitaloption.com/appassets/images/shape/cloud.png')"></div>
+            <div class="footer-bottom-shape" style="background-image: url('https://e-capitaloption.com/appassets/images/shape/footer-bottom-shape.png')"></div>
+
+            <div class="man-coin">
+                <img src="https://e-capitaloption.com/appassets/images/vactor/man.png" alt="Man Coin">
+            </div><!-- /.man-coin -->
+            
+            
+            
+
+          <!--
+            <div class="star-group">
+                <img src="https://e-capitaloption.com/appassets/images/vactor/star.png" alt="Star">
+                <img src="https://e-capitaloption.com/appassets/images/vactor/star.png" alt="Star">
+                <img src="https://e-capitaloption.com/appassets/images/vactor/star.png" alt="Star">
+                <img src="https://e-capitaloption.com/appassets/images/vactor/star.png" alt="Star">
+                <img src="https://e-capitaloption.com/appassets/images/vactor/star.png" alt="Star">
+            </div><!-- /.star-group -->
+            
+           
+            
+            
+           
+           <!--
+            <div class="tree-group">
+                <div class="tree-item-left" data-animate="hg-fadeInLeft">
+                    <img src="https://e-capitaloption.com/appassets/images/vactor/tree1.png" alt="Tree">
+                </div>
+                <div class="tree-item-right" data-animate="hg-fadeInRight">
+                    <img src="https://e-capitaloption.com/appassets/images/vactor/tree2.png" alt="Tree">
+                </div>
+            </div><!-- /.star-group -->
+            
+            
+
+            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Start Footer Widget Area
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <div class="footer-widget-area" style="padding: 0px;">
+                <div class="container">
+                    <div class="row">
+                        
+                        <!--~~~~~ Start Widget About us ~~~~~--> 
+                          <div class="col-lg-4">
+                            <center><aside class="widget widget_link">
+                                <div class="widget-content">
+                                   <div class="about-loga" style="padding-bottom:8px;">
+                                      <img src="https://e-capitaloption.com/appassets/newimages/logo1.png" alt="Logo">
+                                    </div>
+                                    <p style="text-align: justify;"><font style="color:white;">E-capital Option is one of the fastest growing online trading brands in the world.
+                                    Voted the best mobile trading platform, we have now expanded our offerings to include CFDs on stocks and ETFs, Forex trading, and the exclusive
+                                    E-capital Option product called Digital Options.</font></p>
+                                    <!--<div class="call-info">
+                                        <h4 class="title">Hello Us</h4>
+                                        <p>+111 - 333 - 9999</p>  
+                            
+                                        
+                                        <h2 class="widget-title">Get In Touch</h2>
+                                           <center><div><ul>
+                                                
+                                                    <p style="text-align: justify;"><font style="color:white;">1387 Atlantic Avenue, Brooklyn</font></p> 
+                                                    <p style="text-align: justify;"><font style="color:white;">NYC, USA</font></p>
+                                                    <p style="text-align: justify;"><font style="color:white;">+17342283123</font></p>
+                                                    <p style="text-align: justify;"><font style="color:white;">+447723996127</font></p>
+                                                    <p style="text-align: justify;"><font style="color:white;">support@e-capitaloption.com</font></p>
+                                            </ul></div></center>
+                                    </div> -->
+                                </div>
+                            </aside> </center>
+                        </div>
+                        
+                        <!--~./ end about us widget ~-->
+                        
+                        
+                        
+                        <!--~~~~~ Start Widget Links ~~~~~--> 
+                        <div class="col-lg-3">
+                           <center> <aside class="widget widget_links">
+                                <h2 class="widget-title">Get In Touch</h2>
+                                <div class="widget-content">   
+                                    <ul>
+                                                    <!--<li><font style="color:white;">1387 Atlantic Avenue, Brooklyn, NYC, USA.</font></li> -->
+                                                    <li><font style="color:white;">support@e-capitaloption.com</font></li>
+                                                    <li><font style="color:white;">+17342283123</font></li>
+                                                    <li><font style="color:white;">+447723996127</font></li>
+                                                    
+                                    </ul>
+                                </div>
+                            </aside> </center>
+                        </div><!--~./ end links widget ~-->
+                        
+                        
+                        
+                        
+                        <!--~~~~~ Start Widget Links ~~~~~--> 
+                        <div class="col-lg-3">
+                           <center> <aside class="widget widget_links">
+                                <h2 class="widget-title">My Account</h2>
+                                <div class="widget-content">   
+                                    <ul>
+                                         
+                                        <li><a href="https://e-capitaloption.com/login">Login</a></li>
+                                        <li><a href="https://e-capitaloption.com/register">Register</a></li>
+                                        <li><a href="https://e-capitaloption.com/contact-us">Support</a></li>
+                                        
+                                       
+                                    </ul>
+                                </div>
+                            </aside> </center>
+                        </div><!--~./ end links widget ~-->
+
+                        <!--~~~~~ Start Widget Links ~~~~~--> 
+                        <div class="col-lg-3"> 
+                            <center><aside class="widget widget_links">
+                                <h2 class="widget-title">Useful Link</h2>
+                                <div class="widget-content">
+                                    <ul >   
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="https://e-capitaloption.com/about-us">About</a></li>
+                                    </ul>
+                                </div>
+                            </aside> </center>
+                        </div>
+                        <!--~./ end links widget ~-->
+
+                        <!--~~~~~ Start Widget Links ~~~~~--> 
+                        <!-- <div class="col-lg-3">
+                            <aside class="widget widget_links">
+                                <h2 class="widget-title">My Account</h2>
+                                <div class="widget-content">
+                                    <ul>   
+                                        <li><a href="#">Press inquiries</a></li>
+                                        <li><a href="#">Social media directories</a></li>
+                                        <li><a href="#">Speaker requests</a></li>
+                                        <li><a href="#">Permissions</a></li>
+                                        <li><a href="#">Speaker requests</a></li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div> -->
+                        <!--~./ end links widget ~-->
+                    </div>
+                </div>
+                 <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </div><!--~./ end footer widgets area ~-->
+            <hr noshade  style="background-color:white; height:2px;">
+            
+            
+            
+            
+            
+            
+            
+            <!------whatsapp widget---->
+                        <script async data-id="35506" src="https://cdn.widgetwhats.com/script.min.js"></script>
+            
+           <!------end of whatsapp widget---->
+            
+            
+
+            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Start Footer Bottom Area
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <div class="footer-bottom-area" style="   margin-top: 0px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="copyright-text text-center">
+                                <p>Copyright  &copy; 2021 . All rights reserved</p>
+                                
+                                 <div class="search__inner" id="google_translate_element">
+                        
+                                </div>
+                            </div><!--~./ end copyright text ~-->
+                        </div><!--~./ col-12 ~-->
+                    </div>
+                </div>
+            </div><!--~./ end footer bottom area ~-->
+        </footer><!--~./ end site footer ~-->
+    </div><!--~~./ end site content ~~-->
+
+	<!--Start ClickToTop-->
+	<!--<div class="totop">
+		<a href="#top"><i class="fa fa-arrow-up"></i></a>
+	</div>-->
+	<!--End ClickToTop-->
+
+
+	<!--jQuery JS-->
+	<script src="https://e-capitaloption.com/appassets/js/jquery.min.js"></script>
+	<!--Bootstrap JS-->
+	<script src="https://e-capitaloption.com/appassets/js/bootstrap.min.js"></script>
+	<script src="https://e-capitaloption.com/appassets/js/popper.js"></script>
+	<!-- Slick Slider -->
+	<script src="https://e-capitaloption.com/appassets/js/slick.min.js"></script>
+	<!-- counter -->
+	<script src="https://e-capitaloption.com/appassets/js/waypoints.js"></script>
+	<script src="https://e-capitaloption.com/appassets/js/jquery.counterup.min.js"></script>
+	<!-- MpusemoverParallax JS-->
+	<script src="https://e-capitaloption.com/appassets/js/TweenMax.js"></script>
+	<script src="https://e-capitaloption.com/appassets/js/mousemoveparallax.js"></script>
+	<!-- Venobox JS-->
+	<script src="https://e-capitaloption.com/appassets/js/venobox.min.js"></script>
+	<!--Main-->
+	<script src="https://e-capitaloption.com/appassets/js/main.js"></script>
+	
+	<script src="https://e-capitaloption.com/appassets\plugins\notify\js\rainbow.js"></script>
+	<script src="https://e-capitaloption.com/appassets\plugins\notify\js\sample.js"></script>
+	<script src="https://e-capitaloption.com/appassets\plugins\notify\js\jquery.growl.js"></script>
+			  
+		  		  
+		  		  
+		    		  
+		    		  
+		  
+		   
+
+</body>

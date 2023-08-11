@@ -1,0 +1,46 @@
+{
+  "name": "plung",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "v16.14.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "fixed-data-table": "^0.6.5",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.17",
+    "openssl": "^2.0.0",
+    "react-loadingg": "^1.7.2",
+    "react-phone-number-input": "^3.1.10",
+    "socket.io": "^4.1.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "client": "cd client && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "start": "NODE_ENV=production node server.js",
+    "server": "nodemon node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

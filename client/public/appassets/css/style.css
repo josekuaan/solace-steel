@@ -1,0 +1,1267 @@
+/*-----------------------------------------------------------------
+
+Project     :   Dogemine - DogeCoin Mining Landing Page HTML Template 
+Version     :   1.0
+Author              : Thesoftking
+Front-end developer : Mamunur Rashid
+=====================================================================
+
+[Table of contents]
+
+1. Base CSS Start
+2. Site Preloader Css Start
+3. Section Title Css Start
+4. Main Menu Area Start
+5. Welcome Area Start
+6. how we do area Start
+7. video Area Start
+8. Transaction Area Start 
+9. Investor Area Start
+10. Feature Area Start
+11. Counter Area Start
+12. FAQ Area Start
+13. Testimonial Area Start
+14. Footer Area Start 
+15. Click BottomToTop
+
+
+==================================================================*/
+
+/*====================================================================
+1. Base CSS Start
+======================================================================*/
+
+/*--Google Font Import--*/
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  line-height: normal;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  font-weight: 400;
+  color: #203566;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+a,
+button {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a {
+  color: #2c3e50;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1,
+.h1,
+.h2,
+.h3 {
+  margin-bottom: 0px;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #203566;
+  margin-bottom: 0px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.form-control {
+  border: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0) inset;
+  box-shadow: 0 0px 0px rgba(255, 255, 255, 0);
+  border-radius: 2px;
+}
+.form-control:focus {
+  box-shadow: 0 0px 0px rgba(255, 255, 255, 0);
+}
+.modal {
+  z-index: 9999999;
+  background: rgba(0, 0, 0, 0.49);
+}
+.affix {
+  width: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 725px;
+}
+
+/*=================================================
+2. Site Preloader Css Start
+===================================================*/
+.site-preloader {
+  background-color: #fbae1c;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+.site-preloader .spinner {
+  width: 60px;
+  height: 60px;
+  margin: 21% auto;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+  animation: sk-scaleout 1s infinite ease-in-out;
+}
+@-webkit-keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/*==============================================================
+3. Section Title Css Start
+===============================================================*/
+
+.heading-title p {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ff5a2d, #fdaf0a);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.heading-title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #1f3566;
+}
+.heading-title2 p {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.heading-title2 h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* ================================================
+4. Main Menu Area Start
+===================================================*/
+
+.support-bar-area {
+  display: none;
+}
+header.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 27px 0px 27px;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(225, 225, 225, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: 0px;
+}
+#mainHeader .navbar-brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+}
+#mainHeader.header.stiky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #fbae1c;
+  border-bottom: 0px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+#mainHeader.header .nav-link {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+#mainHeader.header .nav-link.active {
+  background: -webkit-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: -moz-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: linear-gradient(to right, #ff542f, #fe9e1c);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#mainHeader.header .nav-link:hover {
+  background: -webkit-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: -moz-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: linear-gradient(to right, #ff542f, #fe9e1c);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#mainHeader.header .nav-item:last-child .nav-link {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+.navbar-light .navbar-toggler {
+  border: 0px;
+}
+
+/* ==============================================
+Main Menu Area Start
+================================================== */
+
+/* =============================================
+5. Welcome Area Start
+================================================ */
+
+#welcomeArea {
+  background: url(../newimages/backg.jpg) no-repeat center;
+  background-size: cover;
+}
+#welcomeArea .welcomaareaRow {
+  padding: 220px 0px 126px;
+}
+
+#welcomeArea .left h1 {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 18px;
+}
+#welcomeArea .left span {
+  font-size: 24px;
+  color: #fff;
+}
+#welcomeArea .left .searcAddress {
+  margin: 49px 0px 73px;
+}
+
+#welcomeArea .left .searcAddress input {
+  width: 370px;
+  height: 50px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 70px;
+}
+
+#welcomeArea .left .searcAddress input:focus,
+#welcomeArea .left .searcAddress button {
+  outline: 0px;
+}
+#welcomeArea .left .searcAddress input::placeholder {
+  color: #fff;
+}
+#welcomeArea .left .searcAddress input::-webkit-placeholder {
+  color: #fff;
+}
+#welcomeArea .left .searcAddress input::-moz-placeholder {
+  color: #fff;
+}
+#welcomeArea .left .searcAddress button {
+  margin-left: -60px;
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  -webkit-background-image: linear-gradient(to right, #ff542f, #fdaf0a);
+  -moz-background-image: linear-gradient(to right, #ff542f, #fdaf0a);
+  background-image: linear-gradient(to right, #ff542f, #fdaf0a);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 0px;
+  color: #fff;
+}
+#welcomeArea .left .searcAddress button:hover {
+  -webkit-background-image: linear-gradient(to left, #ff542f, #fdaf0a);
+  -moz-background-image: linear-gradient(to left, #ff542f, #fdaf0a);
+  background-image: linear-gradient(to left, #ff542f, #fdaf0a);
+}
+
+#welcomeArea .left .info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+#welcomeArea .left .info p {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* =============================================
+Welcome Area End
+================================================ */
+
+/*===============================================
+6. how we do area Start
+==================================================*/
+#hiw {
+  padding: 124px 0px 128px;
+  background: #f8f6ff;
+}
+
+#hiw .heading-title {
+  margin-bottom: 61px;
+}
+
+#hiw .box {
+  text-align: center;
+}
+#hiw .box p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f3566;
+}
+
+#hiw .box.box1 i,
+#hiw .box.box2 i,
+#hiw .box.box3 i {
+  position: relative;
+}
+
+#hiw .box.box1 i::after,
+#hiw .box.box2 i::after,
+#hiw .box.box3 i::after {
+  position: absolute;
+  content: " ";
+  width: 150px;
+  height: 1px;
+  background: #e6d5fc;
+  right: -167px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#hiw .box i {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#hiw .box.box1 i {
+  background: rgba(255, 155, 83, 0.1);
+  color: #ff9b53;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#hiw .box.box1:hover i {
+  background: #ff9b53;
+  color: #fff;
+}
+
+#hiw .box.box2 i {
+  background: rgba(1, 214, 154, 0.1);
+  color: #01d69a;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#hiw .box.box2:hover i {
+  background: #01d69a;
+  color: #fff;
+}
+
+#hiw .box.box3 i {
+  background: rgba(245, 69, 93, 0.1);
+  color: #f5455d;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#hiw .box.box3:hover i {
+  background: #f5455d;
+  color: #fff;
+}
+
+#hiw .box.box4 i {
+  background: rgba(67, 137, 255, 0.1);
+  color: #4389ff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#hiw .box.box4:hover i {
+  background: #4389ff;
+  color: #fff;
+}
+#hiw .heading-title p {
+  margin-bottom: 4px;
+}
+
+#hiw .heading-title h3 {
+  color: #1f3566;
+}
+
+/* ============================================
+How it Works Area End
+=============================================== */
+
+/* ===========================================
+7. video Area Start
+============================================== */
+
+#video {
+  padding: 130px 0px 130px;
+}
+
+#video .heading-title p {
+  margin-bottom: 4px;
+}
+#video .heading-title h3 {
+  color: #203566;
+}
+
+#video .heading-title {
+  margin-bottom: 16px;
+}
+
+#video .content p {
+  color: #203566;
+  font-size: 16px;
+  font-weight: 500;
+}
+#video .videoBox {
+  margin-top: 47px;
+}
+#video .videoBox a {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  background: -webkit-linear-gradient(to right, #ffccc0, #fee6b5);
+  background: -moz-linear-gradient(to right, #ffccc0, #fee6b5);
+  background: linear-gradient(to right, #ffccc0, #fee6b5);
+}
+#video .videoBox a i {
+  line-height: 60px;
+  position: inherit;
+  z-index: 99;
+  background: -webkit-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: -moz-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: linear-gradient(to right, #ff542f, #fe9e1c);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+#video .videoBox a::after {
+  position: absolute;
+  content: " ";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#video .videoBox a:hover::after {
+  width: 50px;
+  height: 50px;
+}
+#video .videoBox span {
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* ===========================================
+video Area End
+============================================== */
+
+/* ============================================
+8. Transaction Area Start 
+=============================================== */
+#transaction {
+  /*background: url(../images/bg1.png) no-repeat center;*/
+  background-color: #fbae1c;
+  background-size: cover;
+  padding: 125px 0px 84px;
+}
+
+#transaction .heading-title2 p {
+  margin-bottom: 4px;
+}
+#transaction .heading-title2 {
+  margin-bottom: 39px;
+}
+.table-bordered thead th {
+  border-bottom-width: 0 px;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 0px solid #dee2e6;
+}
+.table tr th {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.table tr td {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+thead {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.table {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.table-bordered th {
+  line-height: 35px;
+}
+.table-bordered td {
+  line-height: 31px;
+}
+
+.tab1 {
+  display: block;
+  text-align: center;
+  margin: 30px 0px 30px;
+}
+.tab1 ul {
+  display: inline-block;
+  padding-bottom: 34px;
+}
+.tab1 ul li {
+  display: inline-block;
+}
+.tab1 ul li a {
+  width: 170px;
+  height: 60px;
+  border-radius: 50px !important;
+  /*background: linear-gradient(to right, #ff5a2d, #fdaf0a);*/
+  background: #fdaf0a;
+  border: 0px;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+}
+.tab1 ul li a p {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fbae1c;
+  line-height: 45px;
+  position: inherit;
+  z-index: 9;
+}
+.tab1 ul li a::before {
+  position: absolute;
+  content: " ";
+  top: 2px;
+  left: 2px;
+  width: 166px;
+  height: 56px;
+  border-radius: 50px;
+  background: white;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.tab1 ul li a.active::before {
+  background: none;
+}
+
+/* ============================================
+Transaction Area End 
+=============================================== */
+
+/* ==================================================
+9. Investor Area Start
+===================================================== */
+
+#investorArea {
+  padding: 125px 0px 130px;
+  background: #f6f4fd;
+}
+
+#investorArea .heading-title p {
+  margin-bottom: 3px;
+}
+
+#investorArea .heading-title {
+  margin-bottom: 24px;
+}
+#investorArea .content p {
+  font-weight: 500;
+}
+
+/* ==================================================
+Investor Area Start
+===================================================== */
+
+/* =====================================================
+ 10. Feature Area Start
+ ======================================================= */
+#feature {
+  /*background: url(../images/bg2.png) no-repeat center;*/
+  background-color: #fbae1c;
+  background-size: cover;
+  padding: 130px 0px 130px;
+}
+
+#feature .box .left {
+  background: #fff;
+  padding: 0px 25px;
+}
+
+#feature .box .left i {
+  font-size: 25px;
+  background: linear-gradient(to right, #ff5a2d, #fdaf0a);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#feature .box {
+  background: rgba(255, 255, 255, 0.1);
+}
+#feature .box .right {
+  padding: 36px 30px;
+}
+
+#feature .box .right p {
+  font-size: 14px;
+  color: #fff;
+}
+
+#feature .box .right h4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* =====================================================
+ Feature Area End
+ ======================================================= */
+
+/* =========================================================
+ 11. Counter Area Start
+ ============================================================ */
+
+#counter {
+  padding: 129px 0px 107px;
+}
+
+#counter .box p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f3566;
+}
+
+#counter .box i {
+  width: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+#counter .box.box1 i {
+  background: rgba(255, 155, 83, 0.1);
+  color: #ff9b53;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#counter .box.box1:hover i {
+  background: #ff9b53;
+  color: #fff;
+}
+
+#counter .box.box2 i {
+  background: rgba(1, 214, 154, 0.1);
+  color: #01d69a;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#counter .box.box2:hover i {
+  background: #01d69a;
+  color: #fff;
+}
+
+#counter .box.box3 i {
+  background: rgba(245, 69, 93, 0.1);
+  color: #f5455d;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#counter .box.box3:hover i {
+  background: #f5455d;
+  color: #fff;
+}
+
+#counter .box.box4 i {
+  background: rgba(67, 137, 255, 0.1);
+  color: #4389ff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#counter .box.box4:hover i {
+  background: #4389ff;
+  color: #fff;
+}
+
+#counter .box .right span {
+  font-size: 48px;
+  font-weight: 500;
+  color: #1f3566;
+}
+
+/* =========================================================
+ Counter Area End
+ ============================================================ */
+
+/* ====================================================
+12. FAQ Area Start
+======================================================= */
+
+#faq {
+  /*background:url(../images/bg1.png) no-repeat center; */
+  background-color: #fbae1c;
+  background-size: cover;
+  padding: 125px 0px 100px;
+}
+#faq .heading-title2 p {
+  margin-bottom: 6px;
+}
+#faq .heading-title2 {
+  margin-bottom: 70px;
+}
+
+.faq-accordian .panel-group .panel.panel-default {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 30px;
+}
+.faq-accordian .panel-group .panel .panel-heading {
+  border: none;
+  padding: 0;
+}
+.faq-accordian .panel-group .panel .panel-heading .panel-title a {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 28px 30px;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 61px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.faq-accordian .panel-group .panel .panel-heading .panel-title a:after {
+  position: absolute;
+  left: 30px;
+  top: 38px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f055";
+  transform: translateY(-50%);
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.faq-accordian
+  .panel-group
+  .panel
+  .panel-heading
+  .panel-title
+  a[aria-expanded="true"]:after {
+  content: "\f056";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 18px;
+  background: linear-gradient(to right, #ff5a2d, #fdaf0a);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.faq-accordian .panel-group .panel .panel-heading .panel-title a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.faq-accordian
+  .panel-group
+  .panel
+  .panel-heading
+  .panel-title
+  a[aria-expanded="true"] {
+  border-bottom: 0;
+  color: #1f3566;
+  background: #fff;
+  /* padding-bottom: 0; */
+  cursor: pointer;
+  border-radius: 10px 10px 0px 0px;
+}
+.faq-accordian .panel-group .panel .panel-body {
+  /* border: 2px solid rgba(0, 0, 0, 0.07); */
+  background-color: #fff;
+  border-top: 0;
+  padding: 0px 30px 29px 61px;
+  font-size: 16px;
+  color: #1f3566;
+  line-height: 26px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* ====================================================
+FAQ Area End
+======================================================= */
+
+/* =======================================
+13. Testimonial Area Start
+========================================== */
+
+#testimonial {
+  padding-top: 92px;
+  padding-bottom: 126px;
+}
+
+#testimonial .star-icon > i {
+  font-size: 18px;
+  color: #f1b922;
+}
+#testimonial .client-description {
+  text-align: center;
+}
+#testimonial .client-description > p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #1f3566;
+  max-width: 700px;
+  display: inline-block;
+}
+
+#testimonial .client > i {
+  font-size: 48px;
+  color: #5b32b4;
+  margin-bottom: 30px;
+}
+
+#testimonial .client-name > h5 {
+  color: #1f3566;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+}
+#testimonial .client-name > p {
+  color: #1f3566;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+#testimonial .slick-slide.client-thumbnail {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 129px;
+}
+
+#testimonial .slick-slide img {
+  display: block;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+#testimonial .slick-slide:focus,
+#testimonial .slick-slide img {
+  outline: 0px;
+}
+#testimonial .slick-slide.slick-current img {
+  opacity: 1 !important;
+}
+
+#testimonial .slick-arrow i {
+  position: absolute;
+  width: 30px;
+  background-color: #fff;
+  height: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #b5aec4;
+  display: block;
+  left: 0;
+  z-index: 90;
+  cursor: pointer;
+}
+
+#testimonial .slick-arrow .fa-angle-right {
+  left: auto;
+  right: 0;
+  top: 0;
+}
+
+#testimonial .slick-arrow i {
+  position: inherit;
+  z-index: 99;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  background: -webkit-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: -moz-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: linear-gradient(to right, #ff542f, #fe9e1c);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#testimonial .slick-arrow:first-child {
+  position: absolute;
+  left: -63px;
+}
+#testimonial .slick-arrow:last-child {
+  position: absolute;
+  right: -63px;
+  top: 0%;
+}
+#testimonial .slick-arrow:last-child i {
+  padding-left: 0px;
+}
+
+#testimonial .slick-arrow {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: -moz-linear-gradient(to right, #ff542f, #fe9e1c);
+  background: linear-gradient(to right, #ff542f, #fe9e1c);
+}
+
+#testimonial .slick-arrow::after {
+  position: absolute;
+  content: " ";
+  top: 1px;
+  left: 1px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(to right, #fff, #fff);
+  background: -moz-linear-gradient(to right, #fff, #fff);
+  background: linear-gradient(to right, #fff, #fff);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#testimonial .slick-arrow:hover::after {
+  opacity: 0;
+}
+
+#testimonial .slick-arrow:hover i {
+  background: -webkit-linear-gradient(to right, #fff, #fff);
+  background: -moz-linear-gradient(to right, #fff, #fff);
+  background: linear-gradient(to right, #fff, #fff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* =======================================
+Testimonial Area End
+========================================== */
+
+/*==================================================
+14. Footer Area Start 
+====================================================*/
+
+#footer {
+  background: url(../images/bg1.png) no-repeat center;
+  background-size: cover;
+  background-position-y: -260px;
+  padding: 126px 0px 27px;
+}
+
+#footer .logo a {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 22px;
+  display: inline-block;
+}
+
+#footer .logo .content p {
+  font-size: 14px;
+  color: #fff;
+}
+#footer .logo .content .fp {
+  margin-bottom: 20px;
+}
+#footer .title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+#footer form {
+  margin-top: 25px;
+}
+#footer form input {
+  width: 100%;
+  height: 45px;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  background: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 0px 15px;
+  color: #fff;
+}
+
+#footer form input::placeholder,
+#footer form textarea::placeholder {
+  color: #fff;
+}
+
+#footer form input:focus,
+#footer form textarea:focus {
+  border-color: #01d69a;
+}
+
+#footer form textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  background: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 15px;
+  color: #fff;
+}
+#footer form button {
+  width: 100px;
+  height: 45px;
+  border: 0px;
+  background: -webkit-linear-gradient(to right, #ff5a2d, #fdaf0a);
+  background: -moz-linear-gradient(to right, #ff5a2d, #fdaf0a);
+  background: linear-gradient(to right, #ff5a2d, #fdaf0a);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#footer form button:hover {
+  background: -webkit-linear-gradient(to left, #ff5a2d, #fdaf0a);
+  background: -moz-linear-gradient(to left, #ff5a2d, #fdaf0a);
+  background: linear-gradient(to left, #ff5a2d, #fdaf0a);
+}
+
+#footer .fnewsArea ul {
+  margin-top: 21px;
+}
+#footer .fnewsArea ul li a {
+  color: #fff;
+  margin-bottom: 25px;
+  display: block;
+}
+
+#footer .fnewsArea ul li {
+  margin-bottom: 21px;
+}
+#footer .fnewsArea ul li:last-child {
+  margin-bottom: 0px;
+}
+#footer .copyrightArea {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 24px;
+  margin-top: 130px;
+}
+#footer .copyrightArea p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/*==================================================
+Footer Area End 
+====================================================*/
+
+/*==================================================
+15. Click BottomToTop
+====================================================*/
+.totop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  z-index: 9999;
+  opacity: 0;
+}
+.totop.show {
+  opacity: 1;
+}
+.totop > a {
+  background-color: #000000;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.totop > a:hover {
+  background-color: #5e6063;
+}
+
+/* whatsapp widget */

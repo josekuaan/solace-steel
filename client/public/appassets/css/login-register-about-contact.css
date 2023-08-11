@@ -1,0 +1,60 @@
+.bg-primary {
+    background-color: #02171a !important;
+}
+
+#mainHeader.header.stiky {
+    background: #9eae3a;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.copyright-text>p {
+    color: white;
+}
+
+.widget_links a,
+.widget_meta a,
+.widget_nav_menu a,
+.widget_pages a,
+.widget_recent_comments a,
+.widget_recent_entries a,
+.widget_product_categories a {
+    color: #9eae3a;
+}
+
+.user-register-area .remember-and-password .btn-password {
+    color: #9eae3a;
+}
+
+.btn-primary:before {
+    background: #9eae3a;
+}
+
+.user-register-area .login-form-remember label span a {
+    color: #9eae3a;
+}
+
+p {
+    color: cadetblue;
+}
+
+.btn-white {
+    background-color: #9eae3a;
+    color: white;
+}
+
+element.style {
+    color: #9eae3a;
+}
+
+
+.navbar-nav {
+    background-color: #9eae3a;
+}
+
+.bg-overlay-primary:before {
+    background-color: #02171a;
+}
+
+.investor-item .invest-amount {
+    background-color: #9eae3a;
+}

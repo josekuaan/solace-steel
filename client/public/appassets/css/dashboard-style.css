@@ -1,0 +1,126 @@
+.sidebar-nav ul li.mm-active a {
+    color: #fff;
+    background-color: blue;
+    box-shadow: 0 0 10px 1px #6e6edf !important;
+}
+
+.sidebar-bunker {
+    background-color: #061627;
+    border-right-width: 0;
+}
+
+.typcn:before {
+    font-family: 'typicons';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    height: 1em;
+    font-size: 1em;
+    color: blue;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.breadcrumb-item.active {
+    color: blue;
+}
+
+a {
+    color: #14a5db;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: blue;
+}
+
+.text-success {
+    color: blue;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+}
+
+.btn-top {
+    height: 36px;
+    width: 36px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 36px;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.sidebar-toggle-icon span {
+    background: blue;
+}
+
+.sidebar-toggle-icon span:after,
+.sidebar-toggle-icon span:before {
+    background: blue;
+}
+
+.fa-smile:before {
+    content: "\f118";
+    color: blue;
+}
+
+.f1-step.active .f1-step-icon {
+    background: white;
+}
+
+.f1-step.activated p,
+.f1-step.active p {
+    color: blue;
+}
+
+.fa-credit-card:before {
+    content: "\f09d";
+    color: #3777fc;
+}
+
+.f1-step.activated .f1-step-icon {
+    border: 1px solid blue;
+    color: blue;
+}
+
+.fa-lock:before {
+    content: "\f023";
+    color: blue;
+}
+
+.fa-key:before {
+    content: "\f084";
+    color: blue;
+}
+
+.dataTables_wrapper .pagination .page-item.active>.page-link {
+    background: blue;
+}
+
+.plan-4 .ic,
+.plan-4 .promo .price {
+    background-color: #061627;
+}
+
+.button {
+    background: green;
+}
+
+.border-green {
+    border-color: blue !important;
+}
+
+.custom-input-file--2+label {
+    color: #fff;
+    border-color: #3777fc;
+    background: #061627;
+}

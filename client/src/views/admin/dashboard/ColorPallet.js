@@ -1,0 +1,23 @@
+const color = [
+  "bg-gradient-primary",
+  "bg-gradient-info",
+  "bg-gradient-warning",
+  "bg-gradient-danger",
+  "bg-gradient-primary",
+  "bg-gradient-info",
+  "bg-gradient-warning",
+  "bg-gradient-danger",
+  "bg-gradient-primary",
+  "bg-gradient-info",
+  "bg-gradient-warning",
+  "bg-gradient-danger",
+  "bg-gradient-primary",
+  "bg-gradient-info",
+  "bg-gradient-warning",
+  "bg-gradient-danger",
+  "bg-gradient-primary",
+  "bg-gradient-info",
+  "bg-gradient-warning",
+  "bg-gradient-danger",
+];
+export default color;
