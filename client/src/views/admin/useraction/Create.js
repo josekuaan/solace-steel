@@ -88,6 +88,9 @@ export default function Credit() {
             icon: 'success',
             button: <But />,
           })
+          setInterval(() => {
+            window.location.reload()
+          }, 3000)
         } else {
         }
       })
@@ -115,11 +118,14 @@ export default function Credit() {
             icon: 'success',
             button: <But />,
           })
+          setInterval(() => {
+            window.location.reload()
+          }, 3000)
         }
       })
       .catch((error) => {
         setLoading(false)
-        console.log(error)
+        
         Swal({ text: error.response.data.msg, icon: 'failed' })
       })
   }
@@ -151,7 +157,6 @@ export default function Credit() {
       })
       .catch((error) => {
         setLoading(false)
-        console.log(error)
         Swal({ text: error.response.data.msg, icon: 'failed' })
       })
   }
@@ -182,7 +187,7 @@ export default function Credit() {
           })
           .catch((error) => {
             setLoading(false)
-            console.log(error)
+
             Swal({ text: error.response.data.msg, icon: 'failed' })
           })
       }
@@ -271,7 +276,7 @@ export default function Credit() {
                         {/* <div style={{marginBottom:"10px"}}>Front View</div> */}
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Category</div>
-                          <div className="input-group">
+                          <div className="">
                             <select className="form-control" required onChange={onValueChange}>
                               <option value="">Please select</option>
                               {categories.map((cate, index) => {
@@ -288,11 +293,11 @@ export default function Credit() {
 
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Type</div>
-                          <div className="input-group">
+                          <div className="">
                             <select
                               className="form-control"
                               required
-                              onChange={(e) => setType(e.target.value.toLowerCase())}
+                              onChange={(e) => setType(e.target.value.toLowerCase().trim())}
                             >
                               <option value="">Please select</option>
                               {sub_categories.map((category, index) => {
@@ -310,13 +315,13 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Quantity</div>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="number"
                               step="any"
                               placeholder="quantity"
                               className="form-control"
-                              onChange={(e) => setQty(e.target.value)}
+                              onChange={(e) => setQty(e.target.value.trim())}
                               required
                             />
                             <span className="input-group-addon"></span>
@@ -324,12 +329,12 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Prize </div>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="number"
                               placeholder="price"
                               className="form-control"
-                              onChange={(e) => setPrize(e.target.value)}
+                              onChange={(e) => setPrize(e.target.value.trim())}
                               required
                             />
                             <span className="input-group-addon"></span>
@@ -337,11 +342,11 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Shop </div>
-                          <div className="input-group">
+                          <div className="">
                             <select
                               type="text"
                               className="form-control"
-                              onChange={(e) => setShop(e.target.value.toLowerCase())}
+                              onChange={(e) => setShop(e.target.value.toLowerCase().trim())}
                               required
                             >
                               <option>select shop</option>
@@ -359,12 +364,12 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Re-order Limit</div>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="number"
                               placeholder="re-order"
                               className="form-control"
-                              onChange={(e) => setOtherlevel(e.target.value)}
+                              onChange={(e) => setOtherlevel(e.target.value.trim())}
                               required
                             />
                             <span className="input-group-addon"></span>
@@ -404,7 +409,7 @@ export default function Credit() {
                         {/* <div style={{marginBottom:"10px"}}>Front View</div> */}
                         <div className="col-sm-6">
                           <div style={{ marginTop: '10px', display: 'flex' }}>Category</div>
-                          <div className="input-group">
+                          <div className="">
                             <select className="form-control" required onChange={onValueChange}>
                               <option value="">Please select</option>
                               {categories.map((cate, index) => {
@@ -420,7 +425,7 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-6">
                           <div style={{ marginTop: '10px', display: 'flex' }}>Correction:</div>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="text"
                               className="form-control"
@@ -481,7 +486,7 @@ export default function Credit() {
                         {/* <div style={{marginBottom:"10px"}}>Front View</div> */}
                         <div className="col-sm-6">
                           <div style={{ marginTop: '10px', display: 'flex' }}>Category</div>
-                          <div className="input-group">
+                          <div className="">
                             <select className="form-control" required onChange={onValueChange}>
                               <option value="">Please select</option>
                               {categories.map((cate, index) => {
@@ -498,7 +503,7 @@ export default function Credit() {
 
                         <div className="col-sm-6">
                           <div style={{ marginTop: '10px', display: 'flex' }}>Type</div>
-                          <div className="input-group">
+                          <div className="">
                             <select
                               className="form-control"
                               required
@@ -520,7 +525,7 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-6">
                           <span style={{ marginTop: '10px', display: 'flex' }}>Correction:</span>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="text"
                               className="form-control"
@@ -534,7 +539,7 @@ export default function Credit() {
                       </center>
                     </div>
 
-                    <div className="__edit-btn-container">
+                    <div className="__edit-btn-container ">
                       <span
                         onClick={handleEditType}
                         className={`update fill `}

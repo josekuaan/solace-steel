@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 import Axios from 'axios'
 import Swal from 'sweetalert'
+import Loader from 'react-js-loader'
 import '../../style.css'
 
 import { WalletContext } from '../../../pageContext'
@@ -14,10 +15,12 @@ const Sale = () => {
   const isLoggedIn = window.localStorage.getItem('loggedIn')
   const { categories, setCategory } = useContext(WalletContext)
   const [prize, setPrize] = useState('')
+  const [amountPaid, setAmountPaid] = useState('')
   const [qty, setQty] = useState('')
   const [type, setType] = useState('')
-  const [payment, setPament] = useState('')
-  const [detail, setDetails] = useState('')
+  const [payment, setPamentType] = useState('')
+  const [customerName, setCustomerName] = useState('')
+  const [customerNumber, setCustomerNumber] = useState('')
 
   const [category, setCat] = useState('')
 
@@ -65,7 +68,16 @@ const Sale = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setLoading(true)
-    const data = { category, qty, type, prize, payment, detail }
+    const data = {
+      category,
+      qty,
+      type,
+      prize,
+      amountPaid,
+      payment,
+      customerName,
+      customerNumber,
+    }
 
     Axios({
       method: 'post',
@@ -119,14 +131,22 @@ const Sale = () => {
                   <p>Make A Sale</p>
                 </div>
               </div>
-
+              <div className={'item'}>
+                {/* <Loader
+                  type="bubble-spin"
+                  // bgColor={color}
+                  color={'#bc3433'}
+                  title={'bubble-spin'}
+                  size={100}
+                /> */}
+              </div>
               <div className="card-content">
                 <form className="form-horizontal">
                   <div className="form-group">
-                    <div className="row" style={{ padding: '40px 0' }}>
+                    <div className="row" style={{ paddingTop: '40px 0' }}>
                       <div className="col-sm-4">
-                        <div style={{ marginBottom: '10px' }}>Category</div>
-                        <div className="input-group">
+                        <div style={{ marginBottom: '10px', marginTop: '10px' }}>Category</div>
+                        <div className="">
                           <select className="form-control" required onChange={onValueChange}>
                             <option value="">Please select</option>
                             {categories.map((cate, index) => {
@@ -141,8 +161,8 @@ const Sale = () => {
                         </div>
                       </div>
                       <div className="col-sm-4">
-                        <div style={{ marginBottom: '10px' }}>Type</div>
-                        <div className="input-group">
+                        <div style={{ marginBottom: '10px', marginTop: '10px' }}>Type</div>
+                        <div className="">
                           <select
                             className="form-control"
                             required
@@ -163,14 +183,29 @@ const Sale = () => {
                         </div>
                       </div>
                       <div className="col-sm-4">
-                        <div style={{ marginBottom: '10px' }}>Quantity</div>
-                        <div className="input-group">
+                        <div style={{ marginTop: '10px' }}>Quantity</div>
+                        <div className="">
                           <input
                             type="number"
                             step="any"
                             className="form-control"
-                            onChange={(e) => setQty(e.target.value)}
+                            onChange={(e) => setQty(e.target.value.trim())}
                             placeholder="56"
+                            required
+                          />
+                          <span className="input-group-addon"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-sm-4">
+                        <div style={{ marginBottom: '10px', marginTop: '10px' }}>Price At </div>
+                        <div className="">
+                          <input
+                            type="number"
+                            className="form-control"
+                            onChange={(e) => setPrize(e.target.value.trim())}
+                            placeholder="10$"
                             required
                           />
                           <span className="input-group-addon"></span>
@@ -178,25 +213,12 @@ const Sale = () => {
                       </div>
 
                       <div className="col-sm-4">
-                        <div style={{ marginBottom: '10px' }}>Prize </div>
-                        <div className="input-group">
-                          <input
-                            type="number"
-                            className="form-control"
-                            onChange={(e) => setPrize(e.target.value)}
-                            placeholder="10$"
-                            required
-                          />
-                          <span className="input-group-addon"></span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div style={{ marginBottom: '10px' }}>Payment Type</div>
-                        <div className="input-group">
+                        <div style={{ marginBottom: '10px', marginTop: '10px' }}>Payment Type</div>
+                        <div className="">
                           <select
                             className="form-control"
                             required
-                            onChange={(e) => setPament(e.target.value)}
+                            onChange={(e) => setPamentType(e.target.value)}
                           >
                             <option value="">Please select</option>
                             <option value="cash">Cash</option>
@@ -207,20 +229,52 @@ const Sale = () => {
                         </div>
                       </div>
                       <div className="col-sm-4">
-                        <div style={{ marginBottom: '10px' }}>Remzrks </div>
-                        <div className="input-group">
+                        <div style={{ marginBottom: '10px', marginTop: '10px' }}>
+                          Customer Name{' '}
+                        </div>
+                        <div className="">
                           <input
                             type="text"
                             className="form-control"
-                            onChange={(e) => setDetails(e.target.value)}
-                            placeholder="remarks"
+                            onChange={(e) => setCustomerName(e.target.value.trim())}
+                            placeholder="Customer name"
+                          />
+                          <span className="input-group-addon"></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="row">
+                      <div className="col-sm-4">
+                        <div style={{ marginBottom: '10px', marginTop: '10px' }}>
+                          Customer Number{' '}
+                        </div>
+                        <div className="">
+                          <input
+                            type="text"
+                            className="form-control"
+                            onChange={(e) => setCustomerNumber(e.target.value.trim())}
+                            placeholder="Customer Phone Number"
+                          />
+                          <span className="input-group-addon"></span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div style={{ marginBottom: '10px', marginTop: '10px' }}>Amount Paid </div>
+                        <div className="">
+                          <input
+                            type="number"
+                            className="form-control"
+                            onChange={(e) => setAmountPaid(e.target.value.trim())}
+                            placeholder="10$"
+                            required
                           />
                           <span className="input-group-addon"></span>
                         </div>
                       </div>
                     </div>
                   </div>
-
+                  <br />
                   <div className="__edit-btn-container">
                     <span
                       onClick={handleSubmit}

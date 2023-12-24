@@ -513,6 +513,40 @@ footer {
 }
 /* whatsapp widget ends*/
 
+
+.parent {
+  width: 450px;
+  margin-top:100px;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 7px 20px 20px rgb(210, 227, 244);
+}
+.file-upload {
+  text-align: center;
+  border: 3px dashed rgb(210, 227, 244);
+  padding: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.file-upload input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.upload-card{
+  display: flex;
+      align-items: center;
+      justify-content: center;
+}
 /* MOBILE VIEW */
 
 @media (max-width: 991.98px) {
@@ -633,3 +667,4 @@ footer {
     width: 50%;
   }
 }
+

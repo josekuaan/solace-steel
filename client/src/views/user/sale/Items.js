@@ -21,7 +21,6 @@ export default function Items({ numberOfPages, sale, setNumberOfPages, setSale }
   const token = localStorage.getItem('token')
   const query = useQuery()
   const currentPage = query.get('page') || 1
-  const id = window.localStorage.getItem('userId')
 
   const config = {
     headers: {
@@ -37,7 +36,7 @@ export default function Items({ numberOfPages, sale, setNumberOfPages, setSale }
   }, [currentPage])
 
   const fetchData = () => {
-    Axios.get(`${BASE_URL}/api/inventory/get-sales-by-user/${id}?page=${currentPage}`, config).then(
+    Axios.get(`${BASE_URL}/api/inventory/get-sales-by-user/?page=${currentPage}`, config).then(
       function (response) {
         if (response.data.success) {
           console.log(response.data.sale)
@@ -137,7 +136,7 @@ export default function Items({ numberOfPages, sale, setNumberOfPages, setSale }
       total: `₦${formatter.format(
         item.qty === 0.5 ? item.prize * parseInt(item.qty.toFixed()) : item.prize * item.qty,
       )}`,
-      date: `${moment(item.date).format('DD/MM/YYYY')}`,
+      date: `${moment(item.createdAt).format('DD/MM/YYYY')}`,
     }
   })
   return (

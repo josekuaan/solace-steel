@@ -20,6 +20,7 @@ export default function Log() {
   const [numberOfPages, setNumberOfPages] = useState()
   const [agent, setAgent] = useState('')
   const [active, setActive] = useState('')
+  const [file, setFile] = useState()
   const [currentPage, setCurrentPage] = useState(1)
 
   const config = {
@@ -46,6 +47,7 @@ export default function Log() {
       response,
     ) {
       if (response.data.success) {
+        console.log(response.data.sale)
         setSale(response.data.sale)
         setSaleCopy(response.data.sale)
         setNumberOfPages(response.data.numberOfPages)
@@ -70,13 +72,40 @@ export default function Log() {
   if (isLoggedIn === null) {
     return navigate('/')
   }
+  console.log(file)
   return (
     <div className="row">
       <div className="col-md-12">
         <div className="card">
           <div className="card-header">
             <div className="card-head-content">
-              <h3 className="card-title">Sales</h3>
+              {/* <h3 className="card-title">Sales</h3> */}
+
+              <div
+                className=""
+                style={{
+                  backgroundColor: '#303c54',
+                  border: '1px solid',
+                  padding: '2px',
+                  fontWeight: 600,
+                  letterSpacing: '2px',
+                  fontSize: '15px',
+                  marginLeft: '5px',
+                  padding: '8px 15px',
+
+                  width: '10%',
+                  boxShadow: '0 2px 6px 0 rgba(77, 121, 246, 0.5)',
+                  borderRadius: 10,
+                  border: 'none',
+
+                  cursor: 'pointer',
+                }}
+              >
+                <Link to="/admin/upload" sttyle={{ textAlign: 'center', color: 'white' }}>
+                  Upload
+                </Link>
+              </div>
+
               <select className="form-control choose-user" onChange={onValueChange}>
                 <option value="alluser">All users</option>
                 {users.map((user, index) => {

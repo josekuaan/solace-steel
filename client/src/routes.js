@@ -13,6 +13,8 @@ import Credit from './views/admin/useraction/Create'
 import ReturnItem from './views/admin/useraction/Return'
 import Retstock from './views/admin/useraction/Restock'
 import AdminProfile from './views/admin/profile/Content'
+import CustomerPage from './views/admin/customers/customer_page'
+import FileUpload from './views/admin/sales/file_upload'
 
 const routes = [
   // { path: '/', exact: true, name: 'Home' },
@@ -48,6 +50,12 @@ const routes = [
     element: ProductsCatlog,
     // exact: true,
   },
+  {
+    path: '/customer-page',
+    name: 'Customer Page',
+    element: CustomerPage,
+    // exact: true,
+  },
 
   {
     path: '/admin-profile',
@@ -67,6 +75,12 @@ const routes = [
     path: '/log',
     name: 'Log',
     element: Log,
+    exact: true,
+  },
+  {
+    path: '/upload',
+    name: 'FileUpload',
+    element: FileUpload,
     exact: true,
   },
 ]

@@ -56,6 +56,7 @@ export default function Credit() {
     ) {
       if (response.data.success) {
         setRestock(response.data.restock)
+        console.log(response.data.restock)
         setNumberOfPages(response.data.numberOfPages)
         setloading(false)
       }
@@ -109,6 +110,9 @@ export default function Credit() {
             icon: 'success',
             button: <But />,
           })
+          setInterval(() => {
+            window.location.reload()
+          }, 3000)
         } else {
         }
       })
@@ -155,7 +159,7 @@ export default function Credit() {
                         {/* <div style={{marginBottom:"10px"}}>Front View</div> */}
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Category</div>
-                          <div className="input-group">
+                          <div className="">
                             <select className="form-control" required onChange={onValueChange}>
                               <option value="">Please select</option>
                               {categories.map((cate, index) => {
@@ -172,7 +176,7 @@ export default function Credit() {
 
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Type</div>
-                          <div className="input-group">
+                          <div className="">
                             <select
                               className="form-control"
                               required
@@ -194,7 +198,7 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Quantity</div>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="number"
                               step="any"
@@ -208,7 +212,7 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Prize </div>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="number"
                               placeholder="price"
@@ -221,7 +225,7 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Shop </div>
-                          <div className="input-group">
+                          <div className="">
                             <select
                               type="text"
                               className="form-control"
@@ -243,7 +247,7 @@ export default function Credit() {
                         </div>
                         <div className="col-sm-4">
                           <div style={{ marginBottom: '10px' }}>Re-order Limit</div>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="number"
                               placeholder="re-order"

@@ -98,7 +98,6 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
 
   const fetchData = async (id) => {
     Axios.get(`${BASE_URL}/api/inventory/get-sale-id/${id}`, config).then((response) => {
-      console.log(response.data)
       if (response.data.success) {
         setType(response.data.sale.type)
         setQty(response.data.sale.qty)
@@ -106,16 +105,16 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
         setCategory(response.data.sale.category)
         setPayment(response.data.sale.payment)
         setId(response.data.sale._id)
+        setDate(response.data.sale.createdAt)
         setTime(response.data.sale.createdAt)
         setShop(response.data.sale.shop)
-        setDetails(response.data.sale.detail)
       }
     })
   }
   const handleSubmit = async (event) => {
     event.preventDefault()
     setModal(false)
-    console.log(createdAt)
+
     const data = { category, type, qty, prize, payment, createdAt }
 
     Axios({
@@ -339,7 +338,7 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
           <div className="row">
             <div className="col-sm-6">
               Category:
-              <div className="input-group">
+              <div className="">
                 <input
                   type="text"
                   className="form-control"
@@ -352,7 +351,7 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
             </div>
             <div className="col-sm-6">
               Type:
-              <div className="input-group">
+              <div className="">
                 <input
                   type="text"
                   className="form-control"
@@ -368,7 +367,7 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
           <div className="row">
             <div className="col-sm-6">
               Qty:
-              <div className="input-group">
+              <div className="">
                 <input
                   type="text"
                   className="form-control"
@@ -381,7 +380,7 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
             </div>
             <div className="col-sm-6">
               Price:
-              <div className="input-group">
+              <div className="">
                 <input
                   type="text"
                   className="form-control"
@@ -394,7 +393,7 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
             </div>
             <div className="col-sm-6">
               Payment Type:
-              <div className="input-group">
+              <div className="">
                 <input
                   type="text"
                   className="form-control"
@@ -406,8 +405,8 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
               </div>
             </div>
             <div className="col-sm-6">
-              Set Date:
-              <div className="input-group">
+              Update Date:
+              <div className="">
                 <input
                   type="date"
                   className="form-control"
@@ -421,7 +420,7 @@ export default function Items({ sale, numberOfPages, setNumberOfPages, setSaleCo
         </CModalBody>
         <CModalFooter>
           <CButton color="primary" onClick={handleSubmit}>
-            Edit
+            Update
           </CButton>{' '}
           <CButton color="secondary" onClick={() => setModal(false)}>
             Cancel

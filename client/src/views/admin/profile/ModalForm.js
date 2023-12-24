@@ -7,7 +7,7 @@ export default function ModalForm({ username, email, setUserName, setEmail, setP
       <div className="row">
         <div className="col-sm-4">
           Email:
-          <div className="input-group">
+          <div className="">
             <input
               type="text"
               className="form-control"
@@ -20,7 +20,7 @@ export default function ModalForm({ username, email, setUserName, setEmail, setP
         </div>
         <div className="col-sm-4">
           User Name:
-          <div className="input-group">
+          <div className="">
             <input
               type="text"
               className="form-control"
@@ -33,7 +33,7 @@ export default function ModalForm({ username, email, setUserName, setEmail, setP
         </div>
         <div className="col-sm-4">
           Password:
-          <div className="input-group">
+          <div className="">
             <input
               type="text"
               className="form-control"

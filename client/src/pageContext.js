@@ -15,6 +15,7 @@ const DataProvider = (props) => {
 
   const [sale, setSale] = useState([])
   const [inventory, setInventory] = useState([])
+  const [customers, setCustomers] = useState([])
   const [categories, setCategory] = useState([])
   const [others, setOthers] = useState([])
   const [level, setLevel] = useState([])
@@ -67,6 +68,8 @@ const DataProvider = (props) => {
         setUsers,
         currentuser,
         setCurrentUser,
+        setCustomers,
+        customers,
         setSale,
         sale,
         inventory,

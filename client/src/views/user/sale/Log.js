@@ -12,7 +12,6 @@ export default function Log() {
   const navigate = useNavigate()
   const token = localStorage.getItem('token')
   const isLoggedIn = window.localStorage.getItem('loggedIn')
-  const id = window.localStorage.getItem('userId')
   const { sale, setSale } = useContext(WalletContext)
 
   const [currentPage, setCurrentPage] = useState(1)
@@ -33,9 +32,10 @@ export default function Log() {
   }, [currentPage])
   const fetchData = () => {
     setloading(true)
-    Axios.get(`${BASE_URL}/api/inventory/get-sales-by-user/${id}?page=${currentPage}`, config).then(
+    Axios.get(`${BASE_URL}/api/inventory/get-sales-by-user/?page=${currentPage}`, config).then(
       function (response) {
         if (response.data.success) {
+          console.log(response.data.sale)
           setSale(response.data.sale)
           setNumberOfPages(response.data.numberOfPages)
           setloading(false)

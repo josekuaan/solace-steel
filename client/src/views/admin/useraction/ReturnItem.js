@@ -48,6 +48,7 @@ export default function ReturnItem({ numberOfPages, setNumberOfPages, setReturn 
     Axios.get(`${BASE_URL}/api/inventory/get-returns?page=${currentPage}`, config).then(
       (response) => {
         if (response.data.success) {
+          console.log(response.data.returns)
           setReturn(response.data.returns)
 
           setNumberOfPages(response.data.numberOfPages)
@@ -174,6 +175,15 @@ export default function ReturnItem({ numberOfPages, setNumberOfPages, setReturn 
         sort: true,
       },
     },
+    {
+      name: 'shop',
+      label: 'SHOP',
+      options: {
+        filter: true,
+
+        sort: true,
+      },
+    },
 
     {
       name: 'date',
@@ -217,7 +227,7 @@ export default function ReturnItem({ numberOfPages, setNumberOfPages, setReturn 
             rel="tooltip"
             title="edit item"
             onClick={() => {
-              fetchData(item.id)
+              fetchData(item._id)
               setVisible(!visible)
             }}
             // className="edit-btn"

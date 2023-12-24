@@ -35,11 +35,7 @@ const SalesSchema = new mongoose.Schema({
     trim: true,
     default: 0,
   },
-  detail: {
-    type: String,
-    trim: true,
-    default: "-",
-  },
+
   shop: {
     type: String,
     trim: true,

@@ -86,7 +86,9 @@ exports.login = async (req, res) => {
   const isMatch = await user.comparePassword(password);
 
   if (!isMatch)
-    return res.status(400).json({ success: false, msg: "Incorrect Password" });
+    return res
+      .status(400)
+      .json({ success: false, msg: "Incorrect Credentials" });
   sendTokenResponse(user, 200, res);
 };
 
@@ -146,7 +148,7 @@ exports.updateUserDetails = async (req, res, next) => {
 
     if (!user)
       return res.status(400).json({ success: false, msg: "user not found" });
-    //If the user is not an admin, they can only add one bootcamp
+
     if (req.user.role !== "admin") {
       return res
         .status(400)

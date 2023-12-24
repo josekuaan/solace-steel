@@ -14,7 +14,6 @@ const ReturnSchema = new mongoose.Schema({
 
   prize: {
     type: Number,
-    required: true,
     trim: true,
     default: 0,
   },

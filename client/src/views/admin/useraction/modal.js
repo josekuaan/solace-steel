@@ -37,6 +37,8 @@ export default function Modal({ modal, setModal }) {
     setModal(false)
 
     const data = { category, type }
+    console.log(data)
+    return
 
     Axios({
       method: 'post',
@@ -68,26 +70,28 @@ export default function Modal({ modal, setModal }) {
         </CModalHeader>
         <CModalBody>
           <div className="row" style={{ marginBottom: '10px' }}>
-            <div className="col-sm-6">
+            <div className="col-sm-12">
               Category:
-              <div className="input-group">
+              <div className="">
                 <input
                   type="text"
                   className="form-control"
-                  onChange={(e) => setCate(e.target.value.toLowerCase())}
+                  onChange={(e) => setCate(e.target.value.toLowerCase().trim())}
                   required
                 />
                 <span className="input-group-addon"></span>
               </div>
             </div>
-            <div className="col-sm-6">
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
               Sub Category:
-              <div className="input-group">
+              <div className="">
                 <input
                   type="text"
                   className="form-control"
                   required
-                  onChange={(e) => setSubCategory(e.target.value.toLowerCase())}
+                  onChange={(e) => setSubCategory(e.target.value.toLowerCase().trim())}
                 />
                 <span className="input-group-addon"></span>
               </div>

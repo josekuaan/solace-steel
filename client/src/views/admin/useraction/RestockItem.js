@@ -171,6 +171,15 @@ export default function Items({ restock, numberOfPages, setNumberOfPages, setRes
         sort: true,
       },
     },
+    {
+      name: 'shop',
+      label: 'SHOP',
+      options: {
+        filter: true,
+
+        sort: true,
+      },
+    },
 
     {
       name: 'date',
@@ -214,7 +223,9 @@ export default function Items({ restock, numberOfPages, setNumberOfPages, setRes
             rel="tooltip"
             title="edit item"
             onClick={() => {
-              fetchData(item.id)
+              console.log(item._id)
+              console.log(item)
+              fetchData(item._id)
               setModal(!modal)
             }}
             // className="edit-btn"

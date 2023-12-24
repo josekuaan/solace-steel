@@ -98,7 +98,7 @@ export default function Items({ inventory, numberOfPages, setCurrentInvent, setN
         setQty(response.data.inventory.qty)
         setPrize(response.data.inventory.prize)
         setCategory(response.data.inventory.category)
-        setDate(moment(response.data.inventory.createdAt).format('DD/MM/YYYY'))
+        setDate(response.data.inventory.createdAt)
         setId(response.data.inventory._id)
       }
     })
@@ -305,9 +305,9 @@ export default function Items({ inventory, numberOfPages, setCurrentInvent, setN
           </div> */}
 
           <div className="row">
-            <div className="col-sm-6">
-              Qty:
-              <div className="input-group">
+            <div className="col-sm-12">
+              Quantity:
+              <div className="">
                 <input
                   type="number"
                   className="form-control"
@@ -318,9 +318,12 @@ export default function Items({ inventory, numberOfPages, setCurrentInvent, setN
                 <span className="input-group-addon"></span>
               </div>
             </div>
-            <div className="col-sm-6">
+          </div>
+          <br />
+          <div className="row">
+            <div className="col-sm-12">
               Price:
-              <div className="input-group">
+              <div className="">
                 <input
                   type="number"
                   className="form-control"
@@ -331,9 +334,12 @@ export default function Items({ inventory, numberOfPages, setCurrentInvent, setN
                 <span className="input-group-addon"></span>
               </div>
             </div>
-            <div className="col-sm-6">
-              Set Date:
-              <div className="input-group">
+          </div>
+          <br />
+          <div className="row">
+            <div className="col-sm-12">
+              Update Date:
+              <div className="">
                 <input
                   type="date"
                   className="form-control"

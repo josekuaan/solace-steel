@@ -65,6 +65,14 @@ const _nav = [
       ></i>
     ),
   },
+  {
+    component: CNavItem, 
+    name: 'Customer',
+    to: '/admin/customer-page',
+    icon: (
+      <CIcon icon={cilSpreadsheet} style={{ fontSize: '100px', margin: '0 20px 0 0' }} size="xl" />
+    ),
+  },
 ]
 
 export default _nav

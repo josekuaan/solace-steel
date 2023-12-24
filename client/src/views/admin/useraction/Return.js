@@ -102,9 +102,17 @@ export default function Credit() {
             icon: 'success',
             button: <But />,
           })
+          setInterval(() => {
+            window.location.reload()
+          }, 3000)
         }
       })
       .catch((e) => {
+        console.log(e)
+        console.log(e.code)
+        if (e.code == 'ERR_BAD_REQUEST') {
+          return Swal({ text: 'Could Not Connect to Server or Server is down', icon: 'error' })
+        }
         setLoading(false)
 
         Swal({ text: e.response.msg, icon: 'error' })
@@ -140,9 +148,9 @@ export default function Credit() {
                   <form className="form-horizontal" onSubmit={handleSubmit}>
                     <div className="form-group">
                       <div className="row" style={{ padding: '40px 0' }}>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <div style={{ marginBottom: '10px' }}>Category</div>
-                          <div className="input-group">
+                          <div className="">
                             <select className="form-control" required onChange={onValueChange}>
                               <option value="">Please select</option>
                               {categories.map((cate, index) => {
@@ -157,9 +165,9 @@ export default function Credit() {
                           </div>
                         </div>
 
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <div style={{ marginBottom: '10px' }}>Type</div>
-                          <div className="input-group">
+                          <div className="">
                             <select
                               className="form-control"
                               required
@@ -179,9 +187,25 @@ export default function Credit() {
                             <span className="input-group-addon"></span>
                           </div>
                         </div>
-                        <div className="col-sm-4">
-                          <div style={{ marginBottom: '10px' }}>Shop</div>
+
+                        {/* <div className="col-sm-4">
+                          <div style={{ marginBottom: '10px' }}>Price </div>
                           <div className="input-group">
+                            <input
+                              type="number"
+                              className="form-control"
+                              placeholder="price"
+                              onChange={(e) => setPrize(e.target.value)}
+                              required
+                            />
+                            <span className="input-group-addon"></span>
+                          </div>
+                        </div> */}
+                      </div>
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <div style={{ marginBottom: '10px' }}>Shop</div>
+                          <div className="">
                             <select
                               className="form-control"
                               required
@@ -201,28 +225,15 @@ export default function Credit() {
                           </div>
                         </div>
 
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <div style={{ marginBottom: '10px' }}>Quantity</div>
-                          <div className="input-group">
+                          <div className="">
                             <input
                               type="number"
                               step="any"
                               className="form-control"
                               placeholder="quantity"
                               onChange={(e) => setQty(e.target.value)}
-                              required
-                            />
-                            <span className="input-group-addon"></span>
-                          </div>
-                        </div>
-                        <div className="col-sm-4">
-                          <div style={{ marginBottom: '10px' }}>Price </div>
-                          <div className="input-group">
-                            <input
-                              type="number"
-                              className="form-control"
-                              placeholder="price"
-                              onChange={(e) => setPrize(e.target.value)}
                               required
                             />
                             <span className="input-group-addon"></span>

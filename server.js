@@ -1,8 +1,10 @@
 const express = require("express");
 const path = require("path");
 const dotenv = require("dotenv");
+const fileUpload = require("express-fileupload");
 var helmet = require("helmet");
 const cors = require("cors");
+const Inventory = require("./Model/inventory");
 
 const app = express();
 
@@ -10,6 +12,7 @@ app.use(helmet());
 
 const DBConnect = require("./DB/ConnectDb");
 const inventory = require("./routes/inventory");
+const customer = require("./routes/customers");
 const auth = require("./routes/auth");
 
 // Load Env Vars
@@ -21,6 +24,7 @@ DBConnect();
 app.use(express.json());
 
 app.use(cors());
+app.use(fileUpload());
 app.use(
   // [
   helmet.contentSecurityPolicy({
@@ -48,8 +52,10 @@ app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", process.env.ORIGIN || "*");
   next();
 });
-app.use("/api/inventory", inventory);
+
 app.use("/api/user/auth", auth);
+app.use("/api/customers", customer);
+app.use("/api/inventory", inventory);
 
 // if (process.env.NODE_ENV === "production") {
 //   app.use(express.static(path.join(__dirname, "/client/build")));

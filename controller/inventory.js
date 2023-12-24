@@ -11,6 +11,7 @@ const RecoverySA = require("../Model/recoverySA");
 const RecoveryUS = require("../Model/recoveryUS");
 const RecoveryCT = require("../Model/recoveryCT");
 const RecoveryIN = require("../Model/recoveryIN");
+const customers = require("../Model/customers");
 
 //@desc    Get all user
 //@route   GET /api/v1/auth/users
@@ -57,7 +58,7 @@ exports.getAllWeekMonth = async (req, res) => {
         payment: "$payment",
         shop: "$shop",
         convertedqty: "$convertedqty",
-        date: "$createdAt",
+        createdAt: "$createdAt",
         userId: "$userId",
         _id: "$_id",
       },
@@ -86,7 +87,7 @@ exports.getAllWeekMonth = async (req, res) => {
         payment: "$payment",
         shop: "$shop",
         convertedqty: "$convertedqty",
-        date: "$createdAt",
+        createdAt: "$createdAt",
         userId: "$userId",
         _id: "$_id",
       },
@@ -119,7 +120,7 @@ exports.getAllWeekMonth = async (req, res) => {
         payment: "$payment",
         shop: "$shop",
         convertedqty: "$convertedqty",
-        date: "$createdAt",
+        createdAt: "$createdAt",
         userId: "$userId",
         _id: "$_id",
       },
@@ -183,7 +184,6 @@ exports.getAllInventory = async (req, res) => {
 
   if (!inventory)
     return res.status(401).json({ success: false, msg: `No record Found` });
-  inventory;
 
   res.status(200).json({
     success: true,
@@ -325,7 +325,7 @@ exports.getRestock = async (req, res) => {
   if (!restock)
     return res.status(401).json({ success: false, msg: `No record Found` });
 
-  restock.reverse();
+  // restock.reverse();
 
   res.status(200).json({
     message: "Restocking",
@@ -374,7 +374,11 @@ exports.getSaleByUser = async (req, res) => {
 
   total = await Sale.countDocuments();
 
-  sale = await Sale.find().sort({ _id: -1 }).limit(LIMIT).skip(startIndex);
+  sale = await Sale.find({ userId: req.user._id })
+    .sort({ _id: -1 })
+    .limit(LIMIT)
+    .skip(startIndex);
+  console.log(sale);
   // let sale = await Sale.aggregate([
   //   {
   //     $match: {
@@ -519,9 +523,11 @@ exports.ReturnInventory = async (req, res) => {
     shop: req.body.shop,
     type: req.body.type,
   });
-
+  console.log(inventory);
   if (inventory.length !== 0) {
     for (var i = 0; i < inventory.length; i++) {
+      console.log(Number(req.body.qty));
+      console.log(Number(inventory[i].qty));
       inventory = await Inventory.findOneAndUpdate(
         { _id: inventory[i]._id },
         {
@@ -537,6 +543,7 @@ exports.ReturnInventory = async (req, res) => {
       return res.status(401).json({ success: false, msg: `No record` });
     req.body.user = req.user.fullName;
     req.body.userId = req.user._id;
+
     inventory = await Return.create(req.body);
 
     inventory = await Return.find();
@@ -561,12 +568,25 @@ exports.checkout = async (req, res) => {
 
   if (inventory.length !== 0) {
     for (var i = 0; i < inventory.length; i++) {
-      if (inventory[i].qty == 0) {
+      if (inventory[i].qty <= 0) {
         return res.status(401).json({
           success: false,
-          msg: `You have run of stock :).`,
+          msg: `You have run out of stock on this product :).`,
         });
       }
+      if (inventory[i].qty < req.body.qty) {
+        return res.status(401).json({
+          success: false,
+          msg: `You have just ${inventory[i].qty} items  remaining in stock for this product.`,
+        });
+      }
+
+      let sale = await Sale.create(req.body);
+      if (!sale)
+        return res.status(401).json({
+          success: false,
+          msg: `You can not sale this Item because it has not been created for your shop`,
+        });
 
       let inv = await Inventory.findOneAndUpdate(
         { _id: inventory[i]._id },
@@ -574,10 +594,28 @@ exports.checkout = async (req, res) => {
         { new: true, runValidators: true }
       );
 
-      // console.log(inv);
-
-      let sale = await Sale.create(req.body);
-
+      console.log(inv);
+      const totalBills =
+        req.body.qty === 0.5
+          ? req.body.prize * parseInt(req.body.qty.toFixed())
+          : req.body.prize * req.body.qty;
+      console.log(req.body);
+      console.log(req.body.userId);
+      const customerObj = {
+        customerName: req.body.customerName,
+        customerNumber: req.body.customerNumber,
+        category: req.body.category,
+        type: req.body.type,
+        paymentType: req.body.payment,
+        prize: req.body.prize,
+        amountPaid: req.body.amountPaid,
+        quantity: req.body.qty,
+        userId: req.user._id,
+        bills: totalBills,
+        outStandings: totalBills - req.body.amountPaid,
+      };
+      console.log(customerObj);
+      let customer = await customers.create(customerObj);
       res.status(200).json({ success: true, sale });
     }
   } else {
@@ -596,7 +634,6 @@ exports.updateSale = async (req, res) => {
     new: true,
     runValidators: true,
   });
-  console.log(sale);
 
   if (!sale)
     return res
@@ -609,13 +646,10 @@ exports.updateSale = async (req, res) => {
 //@route   GET /api/auth/updateReturn/:id
 //@access  Private/admin
 exports.updateReturn = async (req, res) => {
-  console.log(req.body);
-
   let inventory = await Return.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
     runValidators: true,
   });
-  console.log(inventory);
 
   if (!inventory)
     return res
@@ -649,7 +683,6 @@ exports.updateRestock = async (req, res) => {
     new: true,
     runValidators: true,
   });
-  console.log(restock);
 
   if (!restock)
     return res
@@ -662,9 +695,6 @@ exports.updateRestock = async (req, res) => {
 //@route   GET /api/auth/updateUserInvest/:id
 //@access  Private/admin
 exports.updateInventory = async (req, res) => {
-  // req.body.createdAt = new Date(req.body.createdAt);
-  // console.log(req.body);
-  // return;
   let inventory = await Inventory.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
     runValidators: true,
@@ -692,7 +722,6 @@ exports.updateCategoryType = async (req, res) => {
 
     arr.push(correction);
   }
-  console.log(arr);
 
   if (arr) {
     const cate = await Category.findOneAndUpdate(
@@ -703,7 +732,6 @@ exports.updateCategoryType = async (req, res) => {
         runValidators: true,
       }
     );
-    console.log("answer", cate);
 
     if (!cate)
       return res.status(401).json({ success: false, msg: `No record` });
@@ -815,24 +843,22 @@ exports.deleteSale = async (req, res, next) => {
       msg: `user with id of ${req.params.id} not found`,
     });
   sale = await sale.remove();
-  let inventory = await Inventory.find({
+  let inventory = await Inventory.findOne({
     shop: sale.shop,
     type: sale.type,
   });
 
-  if (inventory.length !== 0) {
-    for (var i = 0; i < inventory.length; i++) {
-      inventory = await Inventory.findOneAndUpdate(
-        { _id: inventory[i]._id },
-        {
-          qty: Number(inventory[i].qty) + Number(sale.qty),
-        },
+  if (sale) {
+    inventory = await Inventory.findOneAndUpdate(
+      { _id: inventory._id },
+      {
+        qty: Number(inventory.qty) + Number(sale.qty),
+      },
 
-        { new: true, runValidators: true }
-      );
-      // console.log(inventory);
-    }
+      { new: true, runValidators: true }
+    );
   }
+  console.log(sale);
   let recovery = {
     createdDate: sale.createdAt,
     shop: sale.shop,
@@ -885,6 +911,21 @@ exports.deleteReturns = async (req, res, next) => {
   await RecoveryRT.create(recovery);
   return res.status(200).json({ success: true, msg: {} });
 };
+
+//@desc    Delete a user
+//@route   DELETE /api/v1/Investment/:id
+//@access  Private
+// exports.deletedeleteAll = async (req, res, next) => {
+//   try {
+//     let inventory = await Return.deleteMany({
+//       shop: "shop b",
+//     });
+//     console.log(inventory);
+//   } catch (e) {
+//     print(e);
+//   }
+// };
+
 //@desc    Delete a user
 //@route   DELETE /api/v1/Investment/:id
 //@access  Private

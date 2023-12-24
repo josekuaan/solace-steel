@@ -31,12 +31,17 @@ const {
   deleteInventory,
   deleteReturns,
   deleteRestock,
+  deletedeleteAll,
 } = require("../controller/inventory");
+const { upload } = require("../controller/upload");
 const { protect, authorize } = require("../middleWare/auth");
-console.log("got here");
+
 const Router = express.Router();
 
 Router.route("/get-sub-category").post(protect, getSubCategory);
+
+Router.route("/upload").post(protect, upload);
+// Router.route("/clear").delete(protect, deletedeleteAll);
 Router.route("/create-category").post(
   protect,
   authorize("admin"),
@@ -59,7 +64,7 @@ Router.route("/get-returns").get(protect, getReturns);
 Router.route("/get-single-return/:id").get(protect, getSingleReturn);
 Router.route("/get-single-restock/:id").get(protect, getSingleRestock);
 Router.route("/get-sales-by-day-week-month-year").get(protect, getAllWeekMonth);
-Router.route("/get-sales-by-user/:id").get(protect, getSaleByUser);
+Router.route("/get-sales-by-user/").get(protect, getSaleByUser);
 Router.route("/get-single-user-sale/:value").get(protect, getSingleSale);
 Router.route("/get-sale-id/:id").get(protect, getSaleId);
 Router.route("/get-single-inventory/:id").get(
